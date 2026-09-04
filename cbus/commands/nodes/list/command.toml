@@ -1,0 +1,7 @@
+version = 1
+program = "nodes-list"
+summary = "List application-server nodes"
+mutates_state = false
+restart_behavior = "none"
+[[examples]]
+command = "system.nodes.list"

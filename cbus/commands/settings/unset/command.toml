@@ -1,0 +1,8 @@
+version = 1
+program = "settings-unset"
+summary = "Unset a global setting"
+usage = "<key>"
+mutates_state = true
+restart_behavior = "depends_on_setting"
+[[examples]]
+command = "system.settings.unset services.default_minimum_workers"

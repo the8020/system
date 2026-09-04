@@ -1,0 +1,8 @@
+version = 1
+program = "nodes-remove"
+summary = "Remove an application-server node"
+usage = "<node-id>"
+mutates_state = true
+restart_behavior = "none"
+[[examples]]
+command = "system.nodes.remove retired-node"

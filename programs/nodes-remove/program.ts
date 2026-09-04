@@ -1,0 +1,1 @@
+export { removeNode as default } from "../../src/commands.ts";

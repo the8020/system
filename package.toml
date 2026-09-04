@@ -1,0 +1,4 @@
+schema = 1
+description = "80|20 system-wide settings and node topology"
+documentation_url = "https://github.com/the8020/system"
+license = "Apache-2.0"

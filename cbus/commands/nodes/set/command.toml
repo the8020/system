@@ -1,0 +1,8 @@
+version = 1
+program = "nodes-set"
+summary = "Create or update an application-server node"
+usage = "<node-id> --url <url> --recipient-address <address> --recipient-port <port> --enabled[=true|false]"
+mutates_state = true
+restart_behavior = "kernel_restart_required"
+[[examples]]
+command = "system.nodes.set node-a --url https://node.example --recipient-address 10.0.0.12 --recipient-port 9443 --enabled"

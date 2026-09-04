@@ -1,0 +1,16 @@
+import { type Row, t, table, type TableDatabase } from "@the8020/db";
+
+const Revisions = table("the8020__system__revisions", {
+  domain: t.text().primaryKey(),
+  revision: t.integer().default(0),
+  updatedAt: t.datetime().defaultNow(),
+}, {
+  indexes: [{ columns: ["revision"] }],
+});
+
+declare module "@the8020/db/types" {
+  interface Database extends TableDatabase<typeof Revisions> {}
+}
+
+export type RevisionRow = Row<typeof Revisions>;
+export default Revisions;
