@@ -4,7 +4,7 @@ import {
   t,
   table,
   type TableDatabase,
-} from "@the8020/db";
+} from "/p/the8020/db/mod.ts";
 
 const Settings = table("the8020__system__settings", {
   key: t.text().primaryKey(),
@@ -13,7 +13,7 @@ const Settings = table("the8020__system__settings", {
   updatedAt: t.datetime().defaultNow(),
 });
 
-declare module "@the8020/db/types" {
+declare module "/p/the8020/db/types.ts" {
   interface Database extends TableDatabase<typeof Settings> {}
 }
 

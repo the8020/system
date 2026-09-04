@@ -1,4 +1,4 @@
-import { type Row, t, table, type TableDatabase } from "@the8020/db";
+import { type Row, t, table, type TableDatabase } from "/p/the8020/db/mod.ts";
 
 const Revisions = table("the8020__system__revisions", {
   domain: t.text().primaryKey(),
@@ -8,7 +8,7 @@ const Revisions = table("the8020__system__revisions", {
   indexes: [{ columns: ["revision"] }],
 });
 
-declare module "@the8020/db/types" {
+declare module "/p/the8020/db/types.ts" {
   interface Database extends TableDatabase<typeof Revisions> {}
 }
 
