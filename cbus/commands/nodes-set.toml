@@ -1,4 +1,5 @@
 version = 1
+command = "system.nodes.set"
 program = "nodes-set"
 summary = "Create or update an application-server node"
 usage = "<node-id> --url <url> --recipient-address <address> --recipient-port <port> --enabled[=true|false]"

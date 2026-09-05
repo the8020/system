@@ -1,4 +1,5 @@
 version = 1
+command = "system.settings.get"
 program = "settings-get"
 summary = "Get a global setting"
 usage = "<key>"

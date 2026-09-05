@@ -1,4 +1,5 @@
 version = 1
+command = "system.settings.set"
 program = "settings-set"
 summary = "Set a global setting"
 usage = "<key> <value>"
