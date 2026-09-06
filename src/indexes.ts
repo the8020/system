@@ -11,8 +11,12 @@ export async function lockIndexRevision(
     revision: 0,
     updatedAt: new Date(),
   }).onConflict((conflict) =>
+    // Qualify the column: inside ON CONFLICT DO UPDATE the target table and the
+    // proposed-row alias both carry revision, and PostgreSQL rejects the bare
+    // name as ambiguous. SQLite resolves it to the target table, so the
+    // unqualified form only ever failed on PostgreSQL.
     conflict.column("domain").doUpdateSet((eb) => ({
-      revision: eb.ref("revision"),
+      revision: eb.ref(`${Revisions.table}.revision`),
     }))
   ).returning("revision").executeTakeFirstOrThrow();
   return row.revision;
