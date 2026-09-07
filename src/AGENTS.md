@@ -18,9 +18,9 @@ Parent DOX: [system DOX](../AGENTS.md).
 
 # Work Guidance
 
-- Keep revision bookkeeping reusable and independent of the publishing
-  feature. Consumers own their configuration and failure handling; update
-  values and revision together, then rebuild only affected derived views.
+- Keep revision bookkeeping reusable and independent of the publishing feature.
+  Consumers own their configuration and failure handling; update values and
+  revision together, then rebuild only affected derived views.
 
 # Verification
 

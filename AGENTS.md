@@ -159,9 +159,8 @@ below.
   existing revision mechanism before inventing another configuration store or
   invalidation path.
 - Keep durable values authoritative and node views derived, with bounded
-  targeted refresh. Kernel changes are reserved for necessary node
-  foundations, and shared-state failures are repaired and verified at their
-  owner.
+  targeted refresh. Kernel changes are reserved for necessary node foundations,
+  and shared-state failures are repaired and verified at their owner.
 
 # Verification
 
