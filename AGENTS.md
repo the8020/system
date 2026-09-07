@@ -152,6 +152,17 @@ below.
   programs. Settings programs accept only definitions with global storage, and
   intentional input errors are structured command failures.
 
+# Work Guidance
+
+- Keep this package limited to shared settings, topology, and revision
+  contracts; unrelated feature policy belongs in its owning package. Reuse the
+  existing revision mechanism before inventing another configuration store or
+  invalidation path.
+- Keep durable values authoritative and node views derived, with bounded
+  targeted refresh. Kernel changes are reserved for necessary node
+  foundations, and shared-state failures are repaired and verified at their
+  owner.
+
 # Verification
 
 - `deno task check` formats, lints, and type-checks all table modules.
