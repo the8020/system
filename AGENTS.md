@@ -146,6 +146,10 @@ below.
   through `kernel.reindex`; missed notifications need no application-table scan.
   This is shared revision bookkeeping, not another configuration store or
   service.
+- Generic kernel service restarts share that scalar and publish bounded latest
+  restart, hard-restart, and source-update deduplication markers. The lifecycle
+  owner interprets them; [tables/AGENTS.md](tables/AGENTS.md) records their
+  domains.
 - Flat `cbus/commands/*.toml` declarations use a required `command` field for
   the complete public name; filenames are arbitrary. They map visible
   `system.nodes.*` and `system.settings.*` commands to non-discoverable ordinary
