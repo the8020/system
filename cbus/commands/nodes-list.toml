@@ -1,6 +1,6 @@
 version = 1
 command = "system.nodes.list"
-program = "nodes-list"
+program = "the8020/system/nodes-list"
 summary = "List application-server nodes"
 mutates_state = false
 restart_behavior = "none"

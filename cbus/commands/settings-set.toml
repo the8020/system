@@ -1,6 +1,6 @@
 version = 1
 command = "system.settings.set"
-program = "settings-set"
+program = "the8020/system/settings-set"
 summary = "Set a global setting"
 usage = "<key> <value>"
 mutates_state = true

@@ -1,6 +1,6 @@
 version = 1
 command = "system.settings.list"
-program = "settings-list"
+program = "the8020/system/settings-list"
 summary = "List global settings"
 usage = "[detail]"
 mutates_state = false

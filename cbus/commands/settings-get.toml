@@ -1,6 +1,6 @@
 version = 1
 command = "system.settings.get"
-program = "settings-get"
+program = "the8020/system/settings-get"
 summary = "Get a global setting"
 usage = "<key>"
 mutates_state = false

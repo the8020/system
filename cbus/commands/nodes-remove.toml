@@ -1,6 +1,6 @@
 version = 1
 command = "system.nodes.remove"
-program = "nodes-remove"
+program = "the8020/system/nodes-remove"
 summary = "Remove an application-server node"
 usage = "<node-id>"
 mutates_state = true
