@@ -1,9 +1,8 @@
+import { AdminCommandError, kernel } from "@the8020/kernel";
 import {
-  AdminCommandError,
-  kernel,
   parseCommandArguments,
   requiredCommandArgument,
-} from "@the8020/kernel";
+} from "/p/the8020/packages/commands.ts";
 
 function integer(value: string | boolean | undefined, name: string): number {
   if (typeof value !== "string" || !/^[0-9]+$/.test(value)) {

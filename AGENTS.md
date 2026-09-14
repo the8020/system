@@ -133,6 +133,12 @@ below.
 
 # Local Contracts
 
+- `profile.ts` owns the standardized database-backed system identity, custom
+  name, and `development`, `test`, or `production` role in `system.profile`.
+  First use creates a development identity; edits retain its UUID and require
+  `system.profile.edit`. Test includes backup, preproduction, and fork systems.
+  `requireDevelopment()` gates application-owned direct package editing; native
+  recovery remains independent. Deployment screens own its presentation.
 - Runtime values are stored in the system database; no package code receives
   database credentials.
 - Missing global settings are inserted from kernel-owned typed definitions and
@@ -157,6 +163,12 @@ below.
   intentional input errors are structured command failures.
 
 # Work Guidance
+
+- Build only what the request and established contracts require. Before adding a
+  mechanism, identify that need and why existing owners or standard tools cannot
+  meet it. Do not invent stronger guarantees for hypothetical cases. Remove
+  unsupported additions at closeout; agent-written tests and DOX do not
+  authorize them. Preserve required correctness, security, and data integrity.
 
 - Keep this package limited to shared settings, topology, and revision
   contracts; unrelated feature policy belongs in its owning package. Reuse the

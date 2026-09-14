@@ -1,4 +1,4 @@
-import type { Transaction } from "kysely";
+import type { Transaction } from "/p/the8020/db/kysely.ts";
 import type { Database } from "/p/the8020/db/mod.ts";
 import Revisions from "../tables/revisions.ts";
 
