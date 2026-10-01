@@ -135,7 +135,8 @@ below.
 
 - `profile.ts` owns the standardized database-backed system identity, custom
   name, and `development`, `test`, or `production` role in `system.profile`.
-  First use creates a development identity; edits retain its UUID and require
+  First use creates a `sys-` ID with ten random lowercase alphanumeric
+  characters through `newId("sys")`; edits retain it and require
   `system.profile.edit`. Test includes backup, preproduction, and fork systems.
   `requireDevelopment()` gates application-owned direct package editing; native
   recovery remains independent. Deployment screens own its presentation.

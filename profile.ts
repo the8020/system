@@ -1,7 +1,8 @@
 import { field, z } from "/p/the8020/db/fields.ts";
+import { newId } from "@the8020/kernel";
 
 export const systemProfile = z.object({
-  id: field(z.uuid(), {
+  id: field(z.string().regex(/^sys-[a-z0-9]{10}$/), {
     label: "System ID",
     description:
       "Stable identity shared by every node using this system database.",
@@ -33,7 +34,7 @@ export async function getSystemProfile(): Promise<SystemProfile> {
     await Settings.insert({
       key,
       value: {
-        id: crypto.randomUUID(),
+        id: newId("sys"),
         name: "Development",
         role: "development",
       },
