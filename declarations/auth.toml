@@ -1,1 +1,5 @@
-"system.profile.edit" = "Change the shared system name and development/test/production role; value is empty."
+"the8020.system.profile.edit" = "Change the shared system name and development/test/production role; value is empty."
+"the8020.system.node.view" = "List cluster nodes and their addresses; value is empty."
+"the8020.system.node.edit" = "Add, change or remove a cluster node; value is the node ID."
+"the8020.system.setting.view" = "Read global settings; value is the setting key, or empty for the list."
+"the8020.system.setting.edit" = "Set or unset a global setting; value is the setting key."

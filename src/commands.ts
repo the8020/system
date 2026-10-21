@@ -4,6 +4,12 @@ import {
   requiredCommandArgument,
 } from "/p/the8020/packages/commands.ts";
 
+/** Loaded lazily so the system package stays importable before auth tables. */
+async function authorize(action: string, value: string) {
+  const { requirePermission } = await import("/p/the8020/auth/mod.ts");
+  await requirePermission(action, value);
+}
+
 function integer(value: string | boolean | undefined, name: string): number {
   if (typeof value !== "string" || !/^[0-9]+$/.test(value)) {
     throw new AdminCommandError({
@@ -14,15 +20,18 @@ function integer(value: string | boolean | undefined, name: string): number {
   return Number(value);
 }
 
-export function listNodes() {
-  return kernel.nodes.list();
+export async function listNodes() {
+  await authorize("the8020.system.node.view", "");
+  return await kernel.nodes.list();
 }
 
-export function removeNode(...args: string[]) {
-  return kernel.nodes.remove(requiredCommandArgument(args, 0, "node ID"));
+export async function removeNode(...args: string[]) {
+  const node = requiredCommandArgument(args, 0, "node ID");
+  await authorize("the8020.system.node.edit", node);
+  return await kernel.nodes.remove(node);
 }
 
-export function setNode(...args: string[]) {
+export async function setNode(...args: string[]) {
   const parsed = parseCommandArguments(args, {
     values: ["url", "recipient-address", "recipient-port"],
     booleans: ["enabled"],
@@ -37,8 +46,10 @@ export function setNode(...args: string[]) {
       });
     }
   }
-  return kernel.nodes.set({
-    node_id: requiredCommandArgument(parsed.positionals, 0, "node ID"),
+  const node = requiredCommandArgument(parsed.positionals, 0, "node ID");
+  await authorize("the8020.system.node.edit", node);
+  return await kernel.nodes.set({
+    node_id: node,
     url: parsed.options.url,
     recipient_address: parsed.options["recipient-address"],
     recipient_port: integer(parsed.options["recipient-port"], "recipient-port"),
@@ -54,6 +65,7 @@ export async function listSettings(...args: string[]) {
       message: "usage: [detail]",
     });
   }
+  await authorize("the8020.system.setting.view", "");
   const settings = await kernel.settings.global.list();
   return {
     settings: detail
@@ -62,23 +74,21 @@ export async function listSettings(...args: string[]) {
   };
 }
 
-export function getSetting(...args: string[]) {
-  return kernel.settings.global.get(
-    requiredCommandArgument(args, 0, "setting key"),
-  )
-    .then((setting) => ({ setting }));
+export async function getSetting(...args: string[]) {
+  const key = requiredCommandArgument(args, 0, "setting key");
+  await authorize("the8020.system.setting.view", key);
+  return { setting: await kernel.settings.global.get(key) };
 }
 
-export function setSetting(...args: string[]) {
-  return kernel.settings.global.set(
-    requiredCommandArgument(args, 0, "setting key"),
-    requiredCommandArgument(args, 1, "setting value"),
-  ).then((setting) => ({ setting }));
+export async function setSetting(...args: string[]) {
+  const key = requiredCommandArgument(args, 0, "setting key");
+  const value = requiredCommandArgument(args, 1, "setting value");
+  await authorize("the8020.system.setting.edit", key);
+  return { setting: await kernel.settings.global.set(key, value) };
 }
 
-export function unsetSetting(...args: string[]) {
-  return kernel.settings.global.unset(
-    requiredCommandArgument(args, 0, "setting key"),
-  )
-    .then((setting) => ({ setting }));
+export async function unsetSetting(...args: string[]) {
+  const key = requiredCommandArgument(args, 0, "setting key");
+  await authorize("the8020.system.setting.edit", key);
+  return { setting: await kernel.settings.global.unset(key) };
 }

@@ -133,13 +133,19 @@ below.
 
 # Local Contracts
 
+- Node and global-setting commands check `the8020.system.node.view` (value
+  empty) and `the8020.system.node.edit` (node ID), and
+  `the8020.system.setting.view` / `the8020.system.setting.edit` (setting key,
+  empty for the list). Auth loads lazily. The system profile has no separate
+  reader screen; Deployments screens guard it with their own view permission.
 - `profile.ts` owns the standardized database-backed system identity, custom
   name, and `development`, `test`, or `production` role in `system.profile`.
   First use creates a `sys-` ID with ten random lowercase alphanumeric
   characters through `newId("sys")`; edits retain it and require
-  `system.profile.edit`. Test includes backup, preproduction, and fork systems.
-  `requireDevelopment()` gates application-owned direct package editing; native
-  recovery remains independent. Deployment screens own its presentation.
+  `the8020.system.profile.edit`. Test includes backup, preproduction, and fork
+  systems. `requireDevelopment()` gates application-owned direct package
+  editing; native recovery remains independent. Deployment screens own its
+  presentation.
 - Runtime values are stored in the system database; no package code receives
   database credentials.
 - Missing global settings are inserted from kernel-owned typed definitions and

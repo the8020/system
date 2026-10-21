@@ -49,7 +49,7 @@ export async function getSystemProfile(): Promise<SystemProfile> {
 
 export async function setSystemProfile(input: unknown): Promise<SystemProfile> {
   const { requirePermission } = await import("/p/the8020/auth/mod.ts");
-  await requirePermission("system.profile.edit", "");
+  await requirePermission("the8020.system.profile.edit", "");
   const draft = systemProfile.omit({ id: true }).strict().parse(input);
   const current = await getSystemProfile();
   const profile = { ...current, ...draft };
