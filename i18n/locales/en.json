@@ -1,0 +1,24 @@
+{
+  "name": "English",
+  "texts": {
+    "profile.system_id": "System ID",
+    "profile.stable_identity_shared_by_every_node_using": "Stable identity shared by every node using this system database.",
+    "profile.system_name": "System name",
+    "profile.a_name_that_distinguishes_this_system_such": "A name that distinguishes this system, such as Acceptance or Production Europe.",
+    "profile.environment": "Environment",
+    "profile.development_permits_direct_package_changes_test_including": "Development permits direct package changes. Test (including backup, preproduction, and forks) and Production receive deployments.",
+    "package.description": "80|20 system-wide settings and node topology",
+    "programs.settings-set.description": "Set a global setting",
+    "programs.settings-get.description": "Get a global setting",
+    "programs.nodes-set.description": "Create or update an application-server node",
+    "programs.settings-list.description": "List global settings",
+    "programs.settings-unset.description": "Unset a global setting",
+    "programs.nodes-remove.description": "Remove an application-server node",
+    "programs.nodes-list.description": "List application-server nodes",
+    "declarations.auth.the8020.system.profile.edit": "Change the shared system name and development/test/production role; value is empty.",
+    "declarations.auth.the8020.system.node.view": "List cluster nodes and their addresses; value is empty.",
+    "declarations.auth.the8020.system.node.edit": "Add, change or remove a cluster node; value is the node ID.",
+    "declarations.auth.the8020.system.setting.view": "Read global settings; value is the setting key, or empty for the list.",
+    "declarations.auth.the8020.system.setting.edit": "Set or unset a global setting; value is the setting key."
+  }
+}

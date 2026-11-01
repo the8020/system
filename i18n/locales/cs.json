@@ -1,0 +1,24 @@
+{
+  "name": "Čeština",
+  "texts": {
+    "profile.system_id": "ID systému",
+    "profile.stable_identity_shared_by_every_node_using": "Stálá identita sdílená všemi uzly používajícími tuto systémovou databázi.",
+    "profile.system_name": "Název systému",
+    "profile.a_name_that_distinguishes_this_system_such": "Název odlišující tento systém, například Akceptace nebo Produkce Evropa.",
+    "profile.environment": "Prostředí",
+    "profile.development_permits_direct_package_changes_test_including": "Vývoj umožňuje přímé změny balíčků. Test (včetně záloh, předprodukce a kopií) a Produkce přijímají nasazení.",
+    "package.description": "Celosystémová nastavení a topologie uzlů 80|20",
+    "programs.settings-set.description": "Nastavení globální hodnoty",
+    "programs.settings-get.description": "Získání globální hodnoty",
+    "programs.nodes-set.description": "Vytvoření nebo aktualizace uzlu aplikačního serveru",
+    "programs.settings-list.description": "Seznam globálních nastavení",
+    "programs.settings-unset.description": "Odstranění globálního nastavení",
+    "programs.nodes-remove.description": "Odstranění uzlu aplikačního serveru",
+    "programs.nodes-list.description": "Seznam uzlů aplikačního serveru",
+    "declarations.auth.the8020.system.profile.edit": "Změna sdíleného názvu systému a role vývoj/test/produkce; hodnota je prázdná.",
+    "declarations.auth.the8020.system.node.view": "Seznam uzlů clusteru a jejich adres; hodnota je prázdná.",
+    "declarations.auth.the8020.system.node.edit": "Přidání, změna nebo odstranění uzlu clusteru; hodnotou je ID uzlu.",
+    "declarations.auth.the8020.system.setting.view": "Čtení globálních nastavení; hodnotou je klíč nastavení, nebo prázdná hodnota pro seznam.",
+    "declarations.auth.the8020.system.setting.edit": "Nastavení nebo odstranění globální hodnoty; hodnotou je klíč nastavení."
+  }
+}

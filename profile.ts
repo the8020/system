@@ -1,21 +1,21 @@
+import { msg } from "/p/the8020/system/i18n/messages.ts";
 import { field, z } from "/p/the8020/db/fields.ts";
 import { newId } from "@the8020/kernel";
 
 export const systemProfile = z.object({
   id: field(z.string().regex(/^sys-[a-z0-9]{10}$/), {
-    label: "System ID",
-    description:
-      "Stable identity shared by every node using this system database.",
+    label: msg("profile.system_id"),
+    description: msg("profile.stable_identity_shared_by_every_node_using"),
   }),
   name: field(z.string().trim().min(1).max(120), {
-    label: "System name",
-    description:
-      "A name that distinguishes this system, such as Acceptance or Production Europe.",
+    label: msg("profile.system_name"),
+    description: msg("profile.a_name_that_distinguishes_this_system_such"),
   }),
   role: field(z.enum(["development", "test", "production"]), {
-    label: "Environment",
-    description:
-      "Development permits direct package changes. Test (including backup, preproduction, and forks) and Production receive deployments.",
+    label: msg("profile.environment"),
+    description: msg(
+      "profile.development_permits_direct_package_changes_test_including",
+    ),
   }),
 });
 export type SystemProfile = z.infer<typeof systemProfile>;
