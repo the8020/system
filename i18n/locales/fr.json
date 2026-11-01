@@ -1,0 +1,24 @@
+{
+  "name": "Français",
+  "texts": {
+    "profile.system_id": "ID du système",
+    "profile.stable_identity_shared_by_every_node_using": "Identité stable partagée par tous les nœuds utilisant cette base de données système.",
+    "profile.system_name": "Nom du système",
+    "profile.a_name_that_distinguishes_this_system_such": "Un nom permettant de distinguer ce système, par exemple Recette ou Production Europe.",
+    "profile.environment": "Environnement",
+    "profile.development_permits_direct_package_changes_test_including": "Le développement autorise les modifications directes des paquets. Les environnements de test (sauvegarde, préproduction et dérivés compris) et de production reçoivent des déploiements.",
+    "package.description": "Paramètres globaux et topologie des nœuds de 80|20",
+    "programs.settings-set.description": "Définir un paramètre global",
+    "programs.settings-get.description": "Lire un paramètre global",
+    "programs.nodes-set.description": "Créer ou modifier un nœud de serveur d’applications",
+    "programs.settings-list.description": "Lister les paramètres globaux",
+    "programs.settings-unset.description": "Supprimer un paramètre global",
+    "programs.nodes-remove.description": "Supprimer un nœud de serveur d’applications",
+    "programs.nodes-list.description": "Lister les nœuds de serveur d’applications",
+    "declarations.auth.the8020.system.profile.edit": "Modifier le nom partagé du système et son rôle de développement, test ou production ; la valeur est vide.",
+    "declarations.auth.the8020.system.node.view": "Lister les nœuds du cluster et leurs adresses ; la valeur est vide.",
+    "declarations.auth.the8020.system.node.edit": "Ajouter, modifier ou supprimer un nœud du cluster ; la valeur est l’ID du nœud.",
+    "declarations.auth.the8020.system.setting.view": "Lire les paramètres globaux ; la valeur est la clé du paramètre, ou vide pour la liste.",
+    "declarations.auth.the8020.system.setting.edit": "Définir ou supprimer un paramètre global ; la valeur est la clé du paramètre."
+  }
+}

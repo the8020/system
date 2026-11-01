@@ -1,0 +1,24 @@
+{
+  "name": "Română",
+  "texts": {
+    "profile.system_id": "ID sistem",
+    "profile.stable_identity_shared_by_every_node_using": "Identitate stabilă partajată de toate nodurile care folosesc această bază de date a sistemului.",
+    "profile.system_name": "Numele sistemului",
+    "profile.a_name_that_distinguishes_this_system_such": "Un nume care distinge acest sistem, de exemplu Acceptanță sau Producție Europa.",
+    "profile.environment": "Mediu",
+    "profile.development_permits_direct_package_changes_test_including": "Dezvoltare permite modificări directe ale pachetelor. Testare (inclusiv copii de siguranță, preproducție și ramificații) și Producție primesc implementări.",
+    "package.description": "Setări globale și topologia nodurilor 80|20",
+    "programs.settings-set.description": "Stabilește o setare globală",
+    "programs.settings-get.description": "Obține o setare globală",
+    "programs.nodes-set.description": "Creează sau actualizează un nod de server de aplicații",
+    "programs.settings-list.description": "Listează setările globale",
+    "programs.settings-unset.description": "Elimină o setare globală",
+    "programs.nodes-remove.description": "Elimină un nod de server de aplicații",
+    "programs.nodes-list.description": "Listează nodurile de servere de aplicații",
+    "declarations.auth.the8020.system.profile.edit": "Modifică numele partajat al sistemului și rolul de dezvoltare/testare/producție; valoarea este goală.",
+    "declarations.auth.the8020.system.node.view": "Listează nodurile clusterului și adresele lor; valoarea este goală.",
+    "declarations.auth.the8020.system.node.edit": "Adaugă, modifică sau elimină un nod din cluster; valoarea este ID-ul nodului.",
+    "declarations.auth.the8020.system.setting.view": "Citește setările globale; valoarea este cheia setării sau goală pentru listă.",
+    "declarations.auth.the8020.system.setting.edit": "Stabilește sau elimină o setare globală; valoarea este cheia setării."
+  }
+}

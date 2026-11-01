@@ -1,0 +1,24 @@
+{
+  "name": "Català",
+  "texts": {
+    "profile.system_id": "ID del sistema",
+    "profile.stable_identity_shared_by_every_node_using": "Identitat estable compartida per tots els nodes que utilitzen aquesta base de dades del sistema.",
+    "profile.system_name": "Nom del sistema",
+    "profile.a_name_that_distinguishes_this_system_such": "Un nom que distingeixi aquest sistema, com ara Acceptació o Producció Europa.",
+    "profile.environment": "Entorn",
+    "profile.development_permits_direct_package_changes_test_including": "Desenvolupament permet canvis directes als paquets. Proves (incloent còpies de seguretat, preproducció i bifurcacions) i Producció reben desplegaments.",
+    "package.description": "Configuració global i topologia de nodes de 80|20",
+    "programs.settings-set.description": "Estableix una configuració global",
+    "programs.settings-get.description": "Obtén una configuració global",
+    "programs.nodes-set.description": "Crea o actualitza un node de servidor d'aplicacions",
+    "programs.settings-list.description": "Llista les configuracions globals",
+    "programs.settings-unset.description": "Elimina una configuració global",
+    "programs.nodes-remove.description": "Elimina un node de servidor d'aplicacions",
+    "programs.nodes-list.description": "Llista nodes de servidor d'aplicacions",
+    "declarations.auth.the8020.system.profile.edit": "Canvia el nom compartit del sistema i la funció de desenvolupament, proves o producció; el valor és buit.",
+    "declarations.auth.the8020.system.node.view": "Llista els nodes del clúster i les seves adreces; el valor és buit.",
+    "declarations.auth.the8020.system.node.edit": "Afegeix, canvia o elimina un node del clúster; el valor és l'ID del node.",
+    "declarations.auth.the8020.system.setting.view": "Llegeix configuracions globals; el valor és la clau de configuració, o buit per a la llista.",
+    "declarations.auth.the8020.system.setting.edit": "Estableix o elimina una configuració global; el valor és la clau de configuració."
+  }
+}

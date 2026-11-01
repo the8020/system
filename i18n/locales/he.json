@@ -1,0 +1,24 @@
+{
+  "name": "עברית",
+  "texts": {
+    "profile.system_id": "מזהה מערכת",
+    "profile.stable_identity_shared_by_every_node_using": "זהות קבועה המשותפת לכל הצמתים המשתמשים במסד הנתונים של מערכת זו.",
+    "profile.system_name": "שם המערכת",
+    "profile.a_name_that_distinguishes_this_system_such": "שם שמבדיל מערכת זו מאחרות, כגון בדיקות קבלה או ייצור אירופה.",
+    "profile.environment": "סביבה",
+    "profile.development_permits_direct_package_changes_test_including": "סביבת פיתוח מאפשרת שינוי ישיר של חבילות. סביבת בדיקות (כולל גיבוי, קדם־ייצור והסתעפויות) וסביבת ייצור מקבלות פריסות.",
+    "package.description": "הגדרות כלל־מערכתיות וטופולוגיית הצמתים של \u206680|20\u2069",
+    "programs.settings-set.description": "קביעת הגדרה כללית",
+    "programs.settings-get.description": "קריאת הגדרה כללית",
+    "programs.nodes-set.description": "יצירה או עדכון של צומת שרת יישומים",
+    "programs.settings-list.description": "רשימת ההגדרות הכלליות",
+    "programs.settings-unset.description": "ביטול הגדרה כללית",
+    "programs.nodes-remove.description": "הסרת צומת שרת יישומים",
+    "programs.nodes-list.description": "רשימת צומתי שרתי היישומים",
+    "declarations.auth.the8020.system.profile.edit": "שינוי שם המערכת המשותף ותפקידה כפיתוח/בדיקות/ייצור; הערך ריק.",
+    "declarations.auth.the8020.system.node.view": "הצגת צומתי האשכול וכתובותיהם; הערך ריק.",
+    "declarations.auth.the8020.system.node.edit": "הוספה, שינוי או הסרה של צומת באשכול; הערך הוא מזהה הצומת.",
+    "declarations.auth.the8020.system.setting.view": "קריאת הגדרות כלליות; הערך הוא מפתח ההגדרה, או ריק להצגת הרשימה.",
+    "declarations.auth.the8020.system.setting.edit": "קביעה או ביטול של הגדרה כללית; הערך הוא מפתח ההגדרה."
+  }
+}

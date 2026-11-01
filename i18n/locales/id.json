@@ -1,0 +1,24 @@
+{
+  "name": "Bahasa Indonesia",
+  "texts": {
+    "profile.system_id": "ID sistem",
+    "profile.stable_identity_shared_by_every_node_using": "Identitas stabil bersama setiap node yang menggunakan basis data sistem ini.",
+    "profile.system_name": "Nama sistem",
+    "profile.a_name_that_distinguishes_this_system_such": "Nama yang membedakan sistem ini, seperti Penerimaan atau Produksi Eropa.",
+    "profile.environment": "Lingkungan",
+    "profile.development_permits_direct_package_changes_test_including": "Pengembangan mengizinkan perubahan paket langsung. Pengujian (termasuk cadangan, praproduksi, dan fork) serta Produksi menerima deployment.",
+    "package.description": "Pengaturan seluruh sistem dan topologi node 80|20",
+    "programs.settings-set.description": "Tetapkan pengaturan global",
+    "programs.settings-get.description": "Ambil pengaturan global",
+    "programs.nodes-set.description": "Buat atau perbarui node server aplikasi",
+    "programs.settings-list.description": "Daftar pengaturan global",
+    "programs.settings-unset.description": "Hapus pengaturan global",
+    "programs.nodes-remove.description": "Hapus node server aplikasi",
+    "programs.nodes-list.description": "Daftar node server aplikasi",
+    "declarations.auth.the8020.system.profile.edit": "Ubah nama sistem bersama dan peran pengembangan/pengujian/produksi; nilainya kosong.",
+    "declarations.auth.the8020.system.node.view": "Daftar node klaster dan alamatnya; nilainya kosong.",
+    "declarations.auth.the8020.system.node.edit": "Tambah, ubah, atau hapus node klaster; nilainya ID node.",
+    "declarations.auth.the8020.system.setting.view": "Baca pengaturan global; nilainya kunci pengaturan, atau kosong untuk daftar.",
+    "declarations.auth.the8020.system.setting.edit": "Tetapkan atau hapus pengaturan global; nilainya kunci pengaturan."
+  }
+}

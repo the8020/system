@@ -1,0 +1,24 @@
+{
+  "name": "فارسی",
+  "texts": {
+    "profile.system_id": "شناسهٔ سیستم",
+    "profile.stable_identity_shared_by_every_node_using": "هویت پایداری که میان تمام گره‌های استفاده‌کننده از پایگاه دادهٔ این سیستم مشترک است.",
+    "profile.system_name": "نام سیستم",
+    "profile.a_name_that_distinguishes_this_system_such": "نامی که این سیستم را مشخص کند، مانند پذیرش یا تولید اروپا.",
+    "profile.environment": "محیط",
+    "profile.development_permits_direct_package_changes_test_including": "محیط توسعه اجازهٔ تغییر مستقیم بسته‌ها را می‌دهد. محیط‌های آزمایش (شامل پشتیبان، پیش‌تولید و شاخه‌های مستقل) و تولید، استقرارها را دریافت می‌کنند.",
+    "package.description": "تنظیمات سراسری و ساختار گره‌های \u206680|20\u2069",
+    "programs.settings-set.description": "تعیین یک تنظیم سراسری",
+    "programs.settings-get.description": "خواندن یک تنظیم سراسری",
+    "programs.nodes-set.description": "ایجاد یا به‌روزرسانی یک گرهٔ سرور برنامه",
+    "programs.settings-list.description": "فهرست تنظیمات سراسری",
+    "programs.settings-unset.description": "حذف مقدار یک تنظیم سراسری",
+    "programs.nodes-remove.description": "حذف یک گرهٔ سرور برنامه",
+    "programs.nodes-list.description": "فهرست گره‌های سرور برنامه",
+    "declarations.auth.the8020.system.profile.edit": "تغییر نام مشترک سیستم و نقش توسعه/آزمایش/تولید؛ مقدار خالی است.",
+    "declarations.auth.the8020.system.node.view": "فهرست گره‌های خوشه و نشانی آن‌ها؛ مقدار خالی است.",
+    "declarations.auth.the8020.system.node.edit": "افزودن، تغییر یا حذف گرهٔ خوشه؛ مقدار، شناسهٔ گره است.",
+    "declarations.auth.the8020.system.setting.view": "خواندن تنظیمات سراسری؛ مقدار، کلید تنظیم است یا برای فهرست خالی می‌ماند.",
+    "declarations.auth.the8020.system.setting.edit": "تعیین یا حذف مقدار تنظیم سراسری؛ مقدار، کلید تنظیم است."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Magyar",
+  "texts": {
+    "profile.system_id": "Rendszerazonosító",
+    "profile.stable_identity_shared_by_every_node_using": "A rendszeradatbázist használó összes csomópont közös, állandó azonosítója.",
+    "profile.system_name": "Rendszernév",
+    "profile.a_name_that_distinguishes_this_system_such": "A rendszert megkülönböztető név, például Átvételi teszt vagy Éles Európa.",
+    "profile.environment": "Környezet",
+    "profile.development_permits_direct_package_changes_test_including": "A fejlesztői környezetben közvetlenül módosíthatók a csomagok. A tesztkörnyezetek (köztük a biztonsági másolatok, élesítés előtti és elágaztatott rendszerek) és az éles környezetek telepítéseket fogadnak.",
+    "package.description": "80|20 rendszerszintű beállítások és csomópont-topológia",
+    "programs.settings-set.description": "Globális beállítás megadása",
+    "programs.settings-get.description": "Globális beállítás lekérése",
+    "programs.nodes-set.description": "Alkalmazásszerver-csomópont létrehozása vagy frissítése",
+    "programs.settings-list.description": "Globális beállítások listázása",
+    "programs.settings-unset.description": "Globális beállítás törlése",
+    "programs.nodes-remove.description": "Alkalmazásszerver-csomópont eltávolítása",
+    "programs.nodes-list.description": "Alkalmazásszerver-csomópontok listázása",
+    "declarations.auth.the8020.system.profile.edit": "A közös rendszernév és a fejlesztői/teszt/éles szerep módosítása; az érték üres.",
+    "declarations.auth.the8020.system.node.view": "Fürtcsomópontok és címeik listázása; az érték üres.",
+    "declarations.auth.the8020.system.node.edit": "Fürtcsomópont hozzáadása, módosítása vagy eltávolítása; az érték a csomópont azonosítója.",
+    "declarations.auth.the8020.system.setting.view": "Globális beállítások olvasása; az érték a beállítás kulcsa, vagy üres a listához.",
+    "declarations.auth.the8020.system.setting.edit": "Globális beállítás megadása vagy törlése; az érték a beállítás kulcsa."
+  }
+}

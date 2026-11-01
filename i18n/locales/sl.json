@@ -1,0 +1,24 @@
+{
+  "name": "Slovenščina",
+  "texts": {
+    "profile.system_id": "ID sistema",
+    "profile.stable_identity_shared_by_every_node_using": "Stalna identiteta, skupna vsem vozliščem, ki uporabljajo to sistemsko zbirko podatkov.",
+    "profile.system_name": "Ime sistema",
+    "profile.a_name_that_distinguishes_this_system_such": "Ime, po katerem prepoznate ta sistem, na primer Prevzemni preizkus ali Produkcija Evropa.",
+    "profile.environment": "Okolje",
+    "profile.development_permits_direct_package_changes_test_including": "Razvoj omogoča neposredne spremembe paketov. Preizkusna okolja (vključno z varnostnimi kopijami, predprodukcijo in izpeljanimi kopijami) ter produkcija prejemajo uvedbe.",
+    "package.description": "80|20 sistemske nastavitve in topologija vozlišč",
+    "programs.settings-set.description": "Nastavi globalno nastavitev",
+    "programs.settings-get.description": "Prebere globalno nastavitev",
+    "programs.nodes-set.description": "Ustvari ali posodobi vozlišče aplikacijskega strežnika",
+    "programs.settings-list.description": "Prikaže globalne nastavitve",
+    "programs.settings-unset.description": "Odstrani globalno nastavitev",
+    "programs.nodes-remove.description": "Odstrani vozlišče aplikacijskega strežnika",
+    "programs.nodes-list.description": "Prikaže vozlišča aplikacijskega strežnika",
+    "declarations.auth.the8020.system.profile.edit": "Spreminjanje skupnega imena sistema in njegove razvojne, preizkusne ali produkcijske vloge; vrednost je prazna.",
+    "declarations.auth.the8020.system.node.view": "Pregled vozlišč gruče in njihovih naslovov; vrednost je prazna.",
+    "declarations.auth.the8020.system.node.edit": "Dodajanje, spreminjanje ali odstranjevanje vozlišča gruče; vrednost je ID vozlišča.",
+    "declarations.auth.the8020.system.setting.view": "Branje globalnih nastavitev; vrednost je ključ nastavitve ali prazna za seznam.",
+    "declarations.auth.the8020.system.setting.edit": "Nastavitev ali odstranitev globalne nastavitve; vrednost je ključ nastavitve."
+  }
+}

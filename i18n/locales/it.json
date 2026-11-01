@@ -1,0 +1,24 @@
+{
+  "name": "Italiano",
+  "texts": {
+    "profile.system_id": "ID sistema",
+    "profile.stable_identity_shared_by_every_node_using": "Identità stabile condivisa da tutti i nodi che usano questo database di sistema.",
+    "profile.system_name": "Nome del sistema",
+    "profile.a_name_that_distinguishes_this_system_such": "Un nome che distingua questo sistema, come Collaudo o Produzione Europa.",
+    "profile.environment": "Ambiente",
+    "profile.development_permits_direct_package_changes_test_including": "Sviluppo consente modifiche dirette ai pacchetti. Test (inclusi backup, preproduzione e fork) e Produzione ricevono distribuzioni.",
+    "package.description": "Impostazioni globali e topologia dei nodi di 80|20",
+    "programs.settings-set.description": "Imposta un'impostazione globale",
+    "programs.settings-get.description": "Leggi un'impostazione globale",
+    "programs.nodes-set.description": "Crea o aggiorna un nodo server applicativo",
+    "programs.settings-list.description": "Elenca le impostazioni globali",
+    "programs.settings-unset.description": "Rimuovi un'impostazione globale",
+    "programs.nodes-remove.description": "Rimuovi un nodo server applicativo",
+    "programs.nodes-list.description": "Elenca i nodi server applicativi",
+    "declarations.auth.the8020.system.profile.edit": "Modifica il nome condiviso del sistema e il ruolo sviluppo/test/produzione; il valore è vuoto.",
+    "declarations.auth.the8020.system.node.view": "Elenca i nodi del cluster e i loro indirizzi; il valore è vuoto.",
+    "declarations.auth.the8020.system.node.edit": "Aggiungi, modifica o rimuovi un nodo del cluster; il valore è l'ID del nodo.",
+    "declarations.auth.the8020.system.setting.view": "Leggi le impostazioni globali; il valore è la chiave dell'impostazione, oppure vuoto per l'elenco.",
+    "declarations.auth.the8020.system.setting.edit": "Imposta o rimuovi un'impostazione globale; il valore è la chiave dell'impostazione."
+  }
+}

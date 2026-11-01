@@ -1,0 +1,24 @@
+{
+  "name": "Latviešu",
+  "texts": {
+    "profile.system_id": "Sistēmas ID",
+    "profile.stable_identity_shared_by_every_node_using": "Pastāvīga identitāte, ko koplieto visi mezgli, kas izmanto šo sistēmas datubāzi.",
+    "profile.system_name": "Sistēmas nosaukums",
+    "profile.a_name_that_distinguishes_this_system_such": "Nosaukums, kas atšķir šo sistēmu, piemēram, Pieņemšanas testi vai Ražošana Eiropā.",
+    "profile.environment": "Vide",
+    "profile.development_permits_direct_package_changes_test_including": "Izstrāde atļauj tiešas pakotņu izmaiņas. Testēšana (arī rezerves kopijas, pirmsražošana un atzarojumi) un Ražošana saņem izvietojumus.",
+    "package.description": "80|20 sistēmas mēroga iestatījumi un mezglu topoloģija",
+    "programs.settings-set.description": "Iestatīt globālu iestatījumu",
+    "programs.settings-get.description": "Iegūt globālu iestatījumu",
+    "programs.nodes-set.description": "Izveidot vai atjaunināt lietotņu servera mezglu",
+    "programs.settings-list.description": "Uzskaitīt globālos iestatījumus",
+    "programs.settings-unset.description": "Noņemt globālu iestatījumu",
+    "programs.nodes-remove.description": "Noņemt lietotņu servera mezglu",
+    "programs.nodes-list.description": "Uzskaitīt lietotņu servera mezglus",
+    "declarations.auth.the8020.system.profile.edit": "Mainīt kopīgo sistēmas nosaukumu un izstrādes/testēšanas/ražošanas lomu; vērtība ir tukša.",
+    "declarations.auth.the8020.system.node.view": "Uzskaitīt klastera mezglus un to adreses; vērtība ir tukša.",
+    "declarations.auth.the8020.system.node.edit": "Pievienot, mainīt vai noņemt klastera mezglu; vērtība ir mezgla ID.",
+    "declarations.auth.the8020.system.setting.view": "Lasīt globālos iestatījumus; vērtība ir iestatījuma atslēga vai tukša sarakstam.",
+    "declarations.auth.the8020.system.setting.edit": "Iestatīt vai noņemt globālu iestatījumu; vērtība ir iestatījuma atslēga."
+  }
+}

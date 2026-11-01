@@ -1,0 +1,24 @@
+{
+  "name": "Tiếng Việt",
+  "texts": {
+    "profile.system_id": "ID hệ thống",
+    "profile.stable_identity_shared_by_every_node_using": "Định danh ổn định dùng chung cho mọi nút sử dụng cơ sở dữ liệu hệ thống này.",
+    "profile.system_name": "Tên hệ thống",
+    "profile.a_name_that_distinguishes_this_system_such": "Tên để phân biệt hệ thống, như Nghiệm thu hoặc Sản xuất Châu Âu.",
+    "profile.environment": "Môi trường",
+    "profile.development_permits_direct_package_changes_test_including": "Phát triển cho phép đổi gói trực tiếp. Kiểm thử (gồm sao lưu, tiền sản xuất và bản rẽ nhánh) và Sản xuất nhận triển khai.",
+    "package.description": "Cài đặt toàn hệ thống và cấu trúc nút 80|20",
+    "programs.settings-set.description": "Đặt cài đặt toàn cục",
+    "programs.settings-get.description": "Lấy cài đặt toàn cục",
+    "programs.nodes-set.description": "Tạo hoặc cập nhật nút máy chủ ứng dụng",
+    "programs.settings-list.description": "Liệt kê cài đặt toàn cục",
+    "programs.settings-unset.description": "Bỏ cài đặt toàn cục",
+    "programs.nodes-remove.description": "Gỡ nút máy chủ ứng dụng",
+    "programs.nodes-list.description": "Liệt kê nút máy chủ ứng dụng",
+    "declarations.auth.the8020.system.profile.edit": "Đổi tên hệ thống dùng chung và vai trò phát triển/kiểm thử/sản xuất; giá trị để trống.",
+    "declarations.auth.the8020.system.node.view": "Liệt kê nút cụm và địa chỉ; giá trị để trống.",
+    "declarations.auth.the8020.system.node.edit": "Thêm, đổi hoặc gỡ nút cụm; giá trị là ID nút.",
+    "declarations.auth.the8020.system.setting.view": "Đọc cài đặt toàn cục; giá trị là khóa cài đặt, hoặc trống để lấy danh sách.",
+    "declarations.auth.the8020.system.setting.edit": "Đặt hoặc bỏ cài đặt toàn cục; giá trị là khóa cài đặt."
+  }
+}

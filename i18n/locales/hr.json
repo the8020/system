@@ -1,0 +1,24 @@
+{
+  "name": "Hrvatski",
+  "texts": {
+    "profile.system_id": "ID sustava",
+    "profile.stable_identity_shared_by_every_node_using": "Trajni identitet koji dijele svi čvorovi koji koriste ovu bazu podataka sustava.",
+    "profile.system_name": "Naziv sustava",
+    "profile.a_name_that_distinguishes_this_system_such": "Naziv po kojem se ovaj sustav razlikuje, primjerice Prihvatno testiranje ili Produkcija Europa.",
+    "profile.environment": "Okruženje",
+    "profile.development_permits_direct_package_changes_test_including": "Razvoj omogućuje izravne promjene paketa. Testna okruženja (uključujući sigurnosne kopije, pretprodukciju i izdvojene kopije) i produkcija primaju implementacije.",
+    "package.description": "80|20 postavke cijelog sustava i topologija čvorova",
+    "programs.settings-set.description": "Postavlja globalnu postavku",
+    "programs.settings-get.description": "Dohvaća globalnu postavku",
+    "programs.nodes-set.description": "Stvara ili ažurira čvor aplikacijskog poslužitelja",
+    "programs.settings-list.description": "Prikazuje globalne postavke",
+    "programs.settings-unset.description": "Uklanja globalnu postavku",
+    "programs.nodes-remove.description": "Uklanja čvor aplikacijskog poslužitelja",
+    "programs.nodes-list.description": "Prikazuje čvorove aplikacijskog poslužitelja",
+    "declarations.auth.the8020.system.profile.edit": "Promjena zajedničkog naziva sustava i razvojne, testne ili produkcijske uloge; vrijednost je prazna.",
+    "declarations.auth.the8020.system.node.view": "Pregled čvorova klastera i njihovih adresa; vrijednost je prazna.",
+    "declarations.auth.the8020.system.node.edit": "Dodavanje, promjena ili uklanjanje čvora klastera; vrijednost je ID čvora.",
+    "declarations.auth.the8020.system.setting.view": "Čitanje globalnih postavki; vrijednost je ključ postavke ili prazna za popis.",
+    "declarations.auth.the8020.system.setting.edit": "Postavljanje ili uklanjanje globalne postavke; vrijednost je ključ postavke."
+  }
+}

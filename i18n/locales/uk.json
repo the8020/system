@@ -1,0 +1,24 @@
+{
+  "name": "Українська",
+  "texts": {
+    "profile.system_id": "ID системи",
+    "profile.stable_identity_shared_by_every_node_using": "Сталий ідентифікатор, спільний для всіх вузлів, що використовують цю системну базу даних.",
+    "profile.system_name": "Назва системи",
+    "profile.a_name_that_distinguishes_this_system_such": "Назва, що відрізняє цю систему, наприклад «Приймальне тестування» або «Робоча система Європи».",
+    "profile.environment": "Середовище",
+    "profile.development_permits_direct_package_changes_test_including": "Середовище розробки дозволяє прямі зміни пакетів. Тестове середовище (зокрема резервні, передпродукційні системи та відгалуження) і робоче середовище отримують розгортання.",
+    "package.description": "Загальносистемні налаштування й топологія вузлів 80|20",
+    "programs.settings-set.description": "Задає глобальне налаштування",
+    "programs.settings-get.description": "Отримує глобальне налаштування",
+    "programs.nodes-set.description": "Створює або оновлює вузол сервера застосунків",
+    "programs.settings-list.description": "Показує глобальні налаштування",
+    "programs.settings-unset.description": "Видаляє глобальне налаштування",
+    "programs.nodes-remove.description": "Видаляє вузол сервера застосунків",
+    "programs.nodes-list.description": "Показує вузли серверів застосунків",
+    "declarations.auth.the8020.system.profile.edit": "Змінює спільну назву системи та її роль: розробка, тестування чи експлуатація; значення порожнє.",
+    "declarations.auth.the8020.system.node.view": "Показує вузли кластера та їхні адреси; значення порожнє.",
+    "declarations.auth.the8020.system.node.edit": "Додає, змінює або видаляє вузол кластера; значення — ID вузла.",
+    "declarations.auth.the8020.system.setting.view": "Читає глобальні налаштування; значення — ключ налаштування або порожнє для списку.",
+    "declarations.auth.the8020.system.setting.edit": "Задає або видаляє глобальне налаштування; значення — ключ налаштування."
+  }
+}

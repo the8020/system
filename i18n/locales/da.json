@@ -1,0 +1,24 @@
+{
+  "name": "Dansk",
+  "texts": {
+    "profile.system_id": "System-ID",
+    "profile.stable_identity_shared_by_every_node_using": "Stabil identitet, som deles af alle noder, der bruger denne systemdatabase.",
+    "profile.system_name": "Systemnavn",
+    "profile.a_name_that_distinguishes_this_system_such": "Et navn, der adskiller dette system fra andre, f.eks. Accepttest eller Produktion Europa.",
+    "profile.environment": "Miljø",
+    "profile.development_permits_direct_package_changes_test_including": "Udvikling tillader direkte ændringer i pakker. Test (herunder sikkerhedskopier, præproduktion og forgreninger) og Produktion modtager udrulninger.",
+    "package.description": "80|20-systemindstillinger og nodetopologi",
+    "programs.settings-set.description": "Angiv en global indstilling",
+    "programs.settings-get.description": "Hent en global indstilling",
+    "programs.nodes-set.description": "Opret eller opdater en applikationsservernode",
+    "programs.settings-list.description": "Vis globale indstillinger",
+    "programs.settings-unset.description": "Fjern en global indstilling",
+    "programs.nodes-remove.description": "Fjern en applikationsservernode",
+    "programs.nodes-list.description": "Vis applikationsservernoder",
+    "declarations.auth.the8020.system.profile.edit": "Skift det fælles systemnavn og rollen udvikling/test/produktion; værdien er tom.",
+    "declarations.auth.the8020.system.node.view": "Vis klyngenoder og deres adresser; værdien er tom.",
+    "declarations.auth.the8020.system.node.edit": "Tilføj, rediger eller fjern en klyngenode; værdien er node-ID'et.",
+    "declarations.auth.the8020.system.setting.view": "Læs globale indstillinger; værdien er indstillingsnøglen eller tom for listen.",
+    "declarations.auth.the8020.system.setting.edit": "Angiv eller fjern en global indstilling; værdien er indstillingsnøglen."
+  }
+}

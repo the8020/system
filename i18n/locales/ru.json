@@ -1,0 +1,24 @@
+{
+  "name": "Русский",
+  "texts": {
+    "profile.system_id": "ID системы",
+    "profile.stable_identity_shared_by_every_node_using": "Постоянный идентификатор, общий для всех узлов, использующих эту системную базу данных.",
+    "profile.system_name": "Название системы",
+    "profile.a_name_that_distinguishes_this_system_such": "Название, отличающее эту систему, например «Приёмочные испытания» или «Рабочая система Европы».",
+    "profile.environment": "Среда",
+    "profile.development_permits_direct_package_changes_test_including": "Среда разработки допускает прямое изменение пакетов. Тестовая среда (включая резервные, предпродукционные и ответвлённые системы) и рабочая среда получают развёртывания.",
+    "package.description": "Общесистемные настройки и топология узлов 80|20",
+    "programs.settings-set.description": "Задаёт глобальную настройку",
+    "programs.settings-get.description": "Получает глобальную настройку",
+    "programs.nodes-set.description": "Создаёт или обновляет узел сервера приложений",
+    "programs.settings-list.description": "Показывает глобальные настройки",
+    "programs.settings-unset.description": "Удаляет глобальную настройку",
+    "programs.nodes-remove.description": "Удаляет узел сервера приложений",
+    "programs.nodes-list.description": "Показывает узлы серверов приложений",
+    "declarations.auth.the8020.system.profile.edit": "Изменяет общее название системы и её роль: разработка, тестирование или эксплуатация; значение пустое.",
+    "declarations.auth.the8020.system.node.view": "Показывает узлы кластера и их адреса; значение пустое.",
+    "declarations.auth.the8020.system.node.edit": "Добавляет, изменяет или удаляет узел кластера; значение — ID узла.",
+    "declarations.auth.the8020.system.setting.view": "Читает глобальные настройки; значение — ключ настройки или пустое для списка.",
+    "declarations.auth.the8020.system.setting.edit": "Задаёт или удаляет глобальную настройку; значение — ключ настройки."
+  }
+}

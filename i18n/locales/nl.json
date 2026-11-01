@@ -1,0 +1,24 @@
+{
+  "name": "Nederlands",
+  "texts": {
+    "profile.system_id": "Systeem-ID",
+    "profile.stable_identity_shared_by_every_node_using": "Vaste identiteit die alle knooppunten met deze systeemdatabase delen.",
+    "profile.system_name": "Systeemnaam",
+    "profile.a_name_that_distinguishes_this_system_such": "Een herkenbare naam voor dit systeem, zoals Acceptatie of Productie Europa.",
+    "profile.environment": "Omgeving",
+    "profile.development_permits_direct_package_changes_test_including": "Ontwikkeling staat directe pakketwijzigingen toe. Test (inclusief back-up, preproductie en forks) en Productie worden via uitrol bijgewerkt.",
+    "package.description": "Systeembrede instellingen en knooppunttopologie van 80|20",
+    "programs.settings-set.description": "Een algemene instelling instellen",
+    "programs.settings-get.description": "Een algemene instelling ophalen",
+    "programs.nodes-set.description": "Een applicatieserverknooppunt maken of bijwerken",
+    "programs.settings-list.description": "Algemene instellingen weergeven",
+    "programs.settings-unset.description": "Een algemene instelling verwijderen",
+    "programs.nodes-remove.description": "Een applicatieserverknooppunt verwijderen",
+    "programs.nodes-list.description": "Applicatieserverknooppunten weergeven",
+    "declarations.auth.the8020.system.profile.edit": "Wijzig de gedeelde systeemnaam en ontwikkel-/test-/productierol; de waarde is leeg.",
+    "declarations.auth.the8020.system.node.view": "Geef clusterknooppunten en hun adressen weer; de waarde is leeg.",
+    "declarations.auth.the8020.system.node.edit": "Voeg een clusterknooppunt toe, wijzig of verwijder het; de waarde is de knooppunt-ID.",
+    "declarations.auth.the8020.system.setting.view": "Lees algemene instellingen; de waarde is de instellingssleutel, of leeg voor de lijst.",
+    "declarations.auth.the8020.system.setting.edit": "Stel een algemene instelling in of verwijder deze; de waarde is de instellingssleutel."
+  }
+}

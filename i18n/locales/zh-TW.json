@@ -1,0 +1,24 @@
+{
+  "name": "繁體中文（台灣）",
+  "texts": {
+    "profile.system_id": "系統 ID",
+    "profile.stable_identity_shared_by_every_node_using": "所有使用此係統資料庫的節點共用的穩定識別。",
+    "profile.system_name": "系統名稱",
+    "profile.a_name_that_distinguishes_this_system_such": "用於區分此係統的名稱，例如「驗收」或「歐洲正式環境」。",
+    "profile.environment": "環境",
+    "profile.development_permits_direct_package_changes_test_including": "開發環境允許直接更改套件。測試環境（含備份、預備環境和分支副本）及正式環境透過部署接收更改。",
+    "package.description": "80|20 系統全域設定和節點拓撲",
+    "programs.settings-set.description": "設定全域設定",
+    "programs.settings-get.description": "取得全域設定",
+    "programs.nodes-set.description": "建立或更新應用程式伺服器節點",
+    "programs.settings-list.description": "列出全域設定",
+    "programs.settings-unset.description": "移除全域設定",
+    "programs.nodes-remove.description": "移除應用程式伺服器節點",
+    "programs.nodes-list.description": "列出應用程式伺服器節點",
+    "declarations.auth.the8020.system.profile.edit": "更改共用系統名稱及開發/測試/正式環境角色；值為空。",
+    "declarations.auth.the8020.system.node.view": "列出叢集節點及其位址；值為空。",
+    "declarations.auth.the8020.system.node.edit": "新增、更改或移除叢集節點；值為節點 ID。",
+    "declarations.auth.the8020.system.setting.view": "讀取全域設定；值為設定鍵，留空檢視清單。",
+    "declarations.auth.the8020.system.setting.edit": "設定或移除全域設定；值為設定鍵。"
+  }
+}

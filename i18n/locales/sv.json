@@ -1,0 +1,24 @@
+{
+  "name": "Svenska",
+  "texts": {
+    "profile.system_id": "System-ID",
+    "profile.stable_identity_shared_by_every_node_using": "Stabil identitet som delas av alla noder som använder denna systemdatabas.",
+    "profile.system_name": "Systemnamn",
+    "profile.a_name_that_distinguishes_this_system_such": "Ett namn som skiljer systemet från andra, till exempel Acceptanstest eller Produktion Europa.",
+    "profile.environment": "Miljö",
+    "profile.development_permits_direct_package_changes_test_including": "Utveckling tillåter direkta paketändringar. Test (inklusive säkerhetskopior, förproduktion och förgreningar) och Produktion tar emot driftsättningar.",
+    "package.description": "80|20-systeminställningar och nodtopologi",
+    "programs.settings-set.description": "Ange en global inställning",
+    "programs.settings-get.description": "Hämta en global inställning",
+    "programs.nodes-set.description": "Skapa eller uppdatera en applikationsservernod",
+    "programs.settings-list.description": "Lista globala inställningar",
+    "programs.settings-unset.description": "Ta bort en global inställning",
+    "programs.nodes-remove.description": "Ta bort en applikationsservernod",
+    "programs.nodes-list.description": "Lista applikationsservernoder",
+    "declarations.auth.the8020.system.profile.edit": "Ändra det gemensamma systemnamnet och rollen utveckling/test/produktion; värdet är tomt.",
+    "declarations.auth.the8020.system.node.view": "Lista klusternoder och deras adresser; värdet är tomt.",
+    "declarations.auth.the8020.system.node.edit": "Lägg till, ändra eller ta bort en klusternod; värdet är nod-ID.",
+    "declarations.auth.the8020.system.setting.view": "Läs globala inställningar; värdet är inställningsnyckeln eller tomt för listan.",
+    "declarations.auth.the8020.system.setting.edit": "Ange eller ta bort en global inställning; värdet är inställningsnyckeln."
+  }
+}

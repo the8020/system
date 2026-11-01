@@ -1,0 +1,24 @@
+{
+  "name": "Slovenčina",
+  "texts": {
+    "profile.system_id": "ID systému",
+    "profile.stable_identity_shared_by_every_node_using": "Stála identita zdieľaná všetkými uzlami používajúcimi túto systémovú databázu.",
+    "profile.system_name": "Názov systému",
+    "profile.a_name_that_distinguishes_this_system_such": "Názov odlišujúci tento systém, napríklad Akceptácia alebo Produkcia Európa.",
+    "profile.environment": "Prostredie",
+    "profile.development_permits_direct_package_changes_test_including": "Vývoj umožňuje priame zmeny balíčkov. Test (vrátane záloh, predprodukcie a kópií) a Produkcia prijímajú nasadenia.",
+    "package.description": "Celosystémové nastavenia a topológia uzlov 80|20",
+    "programs.settings-set.description": "Nastavenie globálnej hodnoty",
+    "programs.settings-get.description": "Získanie globálnej hodnoty",
+    "programs.nodes-set.description": "Vytvorenie alebo aktualizácia uzla aplikačného servera",
+    "programs.settings-list.description": "Zoznam globálnych nastavení",
+    "programs.settings-unset.description": "Odstránenie globálneho nastavenia",
+    "programs.nodes-remove.description": "Odstránenie uzla aplikačného servera",
+    "programs.nodes-list.description": "Zoznam uzlov aplikačného servera",
+    "declarations.auth.the8020.system.profile.edit": "Zmena spoločného názvu systému a roly vývoj/test/produkcia; hodnota je prázdna.",
+    "declarations.auth.the8020.system.node.view": "Zoznam uzlov klastra a ich adries; hodnota je prázdna.",
+    "declarations.auth.the8020.system.node.edit": "Pridanie, zmena alebo odstránenie uzla klastra; hodnotou je ID uzla.",
+    "declarations.auth.the8020.system.setting.view": "Čítanie globálnych nastavení; hodnotou je kľúč nastavenia, alebo prázdna hodnota pre zoznam.",
+    "declarations.auth.the8020.system.setting.edit": "Nastavenie alebo odstránenie globálnej hodnoty; hodnotou je kľúč nastavenia."
+  }
+}

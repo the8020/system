@@ -1,0 +1,24 @@
+{
+  "name": "Suomi",
+  "texts": {
+    "profile.system_id": "Järjestelmän tunnus",
+    "profile.stable_identity_shared_by_every_node_using": "Pysyvä tunniste, joka on yhteinen kaikille tätä järjestelmätietokantaa käyttäville solmuille.",
+    "profile.system_name": "Järjestelmän nimi",
+    "profile.a_name_that_distinguishes_this_system_such": "Järjestelmän erottava nimi, kuten Hyväksyntä tai Tuotanto Eurooppa.",
+    "profile.environment": "Ympäristö",
+    "profile.development_permits_direct_package_changes_test_including": "Kehitys sallii suorat pakettimuutokset. Testi (mukaan lukien varmuuskopiot, esituotanto ja haarautumat) ja Tuotanto vastaanottavat käyttöönottoja.",
+    "package.description": "80|20-järjestelmäasetukset ja solmutopologia",
+    "programs.settings-set.description": "Aseta yleinen asetus",
+    "programs.settings-get.description": "Hae yleinen asetus",
+    "programs.nodes-set.description": "Luo tai päivitä sovelluspalvelinsolmu",
+    "programs.settings-list.description": "Luettele yleiset asetukset",
+    "programs.settings-unset.description": "Poista yleinen asetus",
+    "programs.nodes-remove.description": "Poista sovelluspalvelinsolmu",
+    "programs.nodes-list.description": "Luettele sovelluspalvelinsolmut",
+    "declarations.auth.the8020.system.profile.edit": "Muuta yhteistä järjestelmän nimeä ja kehitys-/testi-/tuotantoroolia; arvo on tyhjä.",
+    "declarations.auth.the8020.system.node.view": "Luettele klusterin solmut ja niiden osoitteet; arvo on tyhjä.",
+    "declarations.auth.the8020.system.node.edit": "Lisää, muuta tai poista klusterin solmu; arvo on solmun tunnus.",
+    "declarations.auth.the8020.system.setting.view": "Lue yleiset asetukset; arvo on asetuksen avain tai tyhjä luetteloa varten.",
+    "declarations.auth.the8020.system.setting.edit": "Aseta tai poista yleinen asetus; arvo on asetuksen avain."
+  }
+}

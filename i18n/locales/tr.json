@@ -1,0 +1,24 @@
+{
+  "name": "Türkçe",
+  "texts": {
+    "profile.system_id": "Sistem kimliği",
+    "profile.stable_identity_shared_by_every_node_using": "Bu sistem veritabanını kullanan tüm düğümlerin paylaştığı kalıcı kimlik.",
+    "profile.system_name": "Sistem adı",
+    "profile.a_name_that_distinguishes_this_system_such": "Kabul Testi veya Avrupa Üretim gibi bu sistemi ayırt eden bir ad.",
+    "profile.environment": "Ortam",
+    "profile.development_permits_direct_package_changes_test_including": "Geliştirme ortamında paketler doğrudan değiştirilebilir. Test (yedekleme, üretim öncesi ve çatallar dahil) ve Üretim ortamları dağıtımları alır.",
+    "package.description": "80|20 sistem genelindeki ayarlar ve düğüm topolojisi",
+    "programs.settings-set.description": "Genel ayar belirle",
+    "programs.settings-get.description": "Genel ayarı getir",
+    "programs.nodes-set.description": "Uygulama sunucusu düğümü oluştur veya güncelle",
+    "programs.settings-list.description": "Genel ayarları listele",
+    "programs.settings-unset.description": "Genel ayarı kaldır",
+    "programs.nodes-remove.description": "Uygulama sunucusu düğümünü kaldır",
+    "programs.nodes-list.description": "Uygulama sunucusu düğümlerini listele",
+    "declarations.auth.the8020.system.profile.edit": "Paylaşılan sistem adını ve geliştirme/test/üretim rolünü değiştirir; değer boştur.",
+    "declarations.auth.the8020.system.node.view": "Küme düğümlerini ve adreslerini listeler; değer boştur.",
+    "declarations.auth.the8020.system.node.edit": "Küme düğümü ekler, değiştirir veya kaldırır; değer düğüm kimliğidir.",
+    "declarations.auth.the8020.system.setting.view": "Genel ayarları okur; değer ayar anahtarıdır, liste için boştur.",
+    "declarations.auth.the8020.system.setting.edit": "Genel ayar belirler veya kaldırır; değer ayar anahtarıdır."
+  }
+}

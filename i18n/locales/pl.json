@@ -1,0 +1,24 @@
+{
+  "name": "Polski",
+  "texts": {
+    "profile.system_id": "ID systemu",
+    "profile.stable_identity_shared_by_every_node_using": "Stała tożsamość współdzielona przez wszystkie węzły korzystające z tej bazy danych systemu.",
+    "profile.system_name": "Nazwa systemu",
+    "profile.a_name_that_distinguishes_this_system_such": "Nazwa wyróżniająca ten system, np. Odbiór lub Produkcja Europa.",
+    "profile.environment": "Środowisko",
+    "profile.development_permits_direct_package_changes_test_including": "Środowisko deweloperskie pozwala na bezpośrednie zmiany pakietów. Testowe (w tym kopie zapasowe, preprodukcja i odgałęzienia) oraz produkcyjne otrzymują wdrożenia.",
+    "package.description": "Ustawienia globalne i topologia węzłów 80|20",
+    "programs.settings-set.description": "Ustawia ustawienie globalne",
+    "programs.settings-get.description": "Pobiera ustawienie globalne",
+    "programs.nodes-set.description": "Tworzy lub aktualizuje węzeł serwera aplikacji",
+    "programs.settings-list.description": "Wyświetla ustawienia globalne",
+    "programs.settings-unset.description": "Usuwa ustawienie globalne",
+    "programs.nodes-remove.description": "Usuwa węzeł serwera aplikacji",
+    "programs.nodes-list.description": "Wyświetla węzły serwerów aplikacji",
+    "declarations.auth.the8020.system.profile.edit": "Zmienia współdzieloną nazwę systemu i jego rolę deweloperską/testową/produkcyjną; wartość jest pusta.",
+    "declarations.auth.the8020.system.node.view": "Wyświetla węzły klastra i ich adresy; wartość jest pusta.",
+    "declarations.auth.the8020.system.node.edit": "Dodaje, zmienia lub usuwa węzeł klastra; wartością jest ID węzła.",
+    "declarations.auth.the8020.system.setting.view": "Odczytuje ustawienia globalne; wartością jest klucz ustawienia lub pusty ciąg dla listy.",
+    "declarations.auth.the8020.system.setting.edit": "Ustawia lub usuwa ustawienie globalne; wartością jest klucz ustawienia."
+  }
+}

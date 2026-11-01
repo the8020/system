@@ -1,0 +1,24 @@
+{
+  "name": "Filipino",
+  "texts": {
+    "profile.system_id": "ID ng system",
+    "profile.stable_identity_shared_by_every_node_using": "Matatag na pagkakakilanlang ginagamit ng bawat node sa database ng system na ito.",
+    "profile.system_name": "Pangalan ng system",
+    "profile.a_name_that_distinguishes_this_system_such": "Pangalang nagbubukod sa system na ito, gaya ng Acceptance o Produksyon sa Europa.",
+    "profile.environment": "Kapaligiran",
+    "profile.development_permits_direct_package_changes_test_including": "Pinapayagan ng Pagbuo ang direktang pagbabago sa package. Tumatanggap ng deployment ang Pagsubok (kasama ang backup, preproduction, at fork) at Produksyon.",
+    "package.description": "Mga setting sa buong system at topolohiya ng node ng 80|20",
+    "programs.settings-set.description": "Magtakda ng pandaigdigang setting",
+    "programs.settings-get.description": "Kumuha ng pandaigdigang setting",
+    "programs.nodes-set.description": "Gumawa o mag-update ng node ng application server",
+    "programs.settings-list.description": "Ilista ang mga pandaigdigang setting",
+    "programs.settings-unset.description": "Alisin ang pandaigdigang setting",
+    "programs.nodes-remove.description": "Alisin ang node ng application server",
+    "programs.nodes-list.description": "Ilista ang mga node ng application server",
+    "declarations.auth.the8020.system.profile.edit": "Baguhin ang pinagsasaluhang pangalan ng system at papel na pagbuo/pagsubok/produksyon; blangko ang halaga.",
+    "declarations.auth.the8020.system.node.view": "Ilista ang mga node ng cluster at kanilang address; blangko ang halaga.",
+    "declarations.auth.the8020.system.node.edit": "Magdagdag, magbago, o mag-alis ng node ng cluster; ang halaga ay ID ng node.",
+    "declarations.auth.the8020.system.setting.view": "Basahin ang mga pandaigdigang setting; ang halaga ay susi ng setting, o blangko para sa listahan.",
+    "declarations.auth.the8020.system.setting.edit": "Itakda o alisin ang pandaigdigang setting; ang halaga ay susi ng setting."
+  }
+}

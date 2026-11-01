@@ -1,0 +1,24 @@
+{
+  "name": "Lietuvių",
+  "texts": {
+    "profile.system_id": "Sistemos ID",
+    "profile.stable_identity_shared_by_every_node_using": "Pastovi tapatybė, bendra visiems šią sisteminę duomenų bazę naudojantiems mazgams.",
+    "profile.system_name": "Sistemos pavadinimas",
+    "profile.a_name_that_distinguishes_this_system_such": "Šią sistemą išskiriantis pavadinimas, pavyzdžiui, Priėmimo testai arba Produkcinė Europa.",
+    "profile.environment": "Aplinka",
+    "profile.development_permits_direct_package_changes_test_including": "Kūrimo aplinkoje leidžiami tiesioginiai paketų pakeitimai. Testavimo (įskaitant atsargines kopijas, priešprodukcinę aplinką ir atšakas) ir produkcinė aplinkos gauna diegimus.",
+    "package.description": "80|20 bendrieji sistemos nustatymai ir mazgų topologija",
+    "programs.settings-set.description": "Nustatyti bendrąjį nustatymą",
+    "programs.settings-get.description": "Gauti bendrąjį nustatymą",
+    "programs.nodes-set.description": "Sukurti arba atnaujinti programų serverio mazgą",
+    "programs.settings-list.description": "Rodyti bendruosius nustatymus",
+    "programs.settings-unset.description": "Pašalinti bendrąjį nustatymą",
+    "programs.nodes-remove.description": "Pašalinti programų serverio mazgą",
+    "programs.nodes-list.description": "Rodyti programų serverių mazgus",
+    "declarations.auth.the8020.system.profile.edit": "Keisti bendrą sistemos pavadinimą ir kūrimo, testavimo ar produkcinę paskirtį; reikšmė tuščia.",
+    "declarations.auth.the8020.system.node.view": "Rodyti klasterio mazgus ir jų adresus; reikšmė tuščia.",
+    "declarations.auth.the8020.system.node.edit": "Pridėti, keisti arba pašalinti klasterio mazgą; reikšmė yra mazgo ID.",
+    "declarations.auth.the8020.system.setting.view": "Skaityti bendruosius nustatymus; reikšmė yra nustatymo raktas arba tuščia sąrašui.",
+    "declarations.auth.the8020.system.setting.edit": "Nustatyti arba pašalinti bendrąjį nustatymą; reikšmė yra nustatymo raktas."
+  }
+}

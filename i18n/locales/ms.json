@@ -1,0 +1,24 @@
+{
+  "name": "Bahasa Melayu",
+  "texts": {
+    "profile.system_id": "ID sistem",
+    "profile.stable_identity_shared_by_every_node_using": "Identiti stabil yang dikongsi setiap nod yang menggunakan pangkalan data sistem ini.",
+    "profile.system_name": "Nama sistem",
+    "profile.a_name_that_distinguishes_this_system_such": "Nama yang membezakan sistem ini, seperti Penerimaan atau Pengeluaran Eropah.",
+    "profile.environment": "Persekitaran",
+    "profile.development_permits_direct_package_changes_test_including": "Pembangunan membenarkan perubahan pakej secara langsung. Ujian (termasuk sandaran, prapengeluaran dan cabang salinan) serta Pengeluaran menerima pengerahan.",
+    "package.description": "Tetapan seluruh sistem dan topologi nod 80|20",
+    "programs.settings-set.description": "Tetapkan tetapan global",
+    "programs.settings-get.description": "Dapatkan tetapan global",
+    "programs.nodes-set.description": "Cipta atau kemas kini nod pelayan aplikasi",
+    "programs.settings-list.description": "Senaraikan tetapan global",
+    "programs.settings-unset.description": "Nyahset tetapan global",
+    "programs.nodes-remove.description": "Buang nod pelayan aplikasi",
+    "programs.nodes-list.description": "Senaraikan nod pelayan aplikasi",
+    "declarations.auth.the8020.system.profile.edit": "Ubah nama sistem bersama dan peranan pembangunan/ujian/pengeluaran; nilainya kosong.",
+    "declarations.auth.the8020.system.node.view": "Senaraikan nod kelompok dan alamatnya; nilainya kosong.",
+    "declarations.auth.the8020.system.node.edit": "Tambah, ubah atau buang nod kelompok; nilainya ID nod.",
+    "declarations.auth.the8020.system.setting.view": "Baca tetapan global; nilainya kunci tetapan, atau kosong untuk senarai.",
+    "declarations.auth.the8020.system.setting.edit": "Tetapkan atau nyahset tetapan global; nilainya kunci tetapan."
+  }
+}

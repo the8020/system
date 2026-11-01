@@ -1,0 +1,24 @@
+{
+  "name": "हिन्दी",
+  "texts": {
+    "profile.system_id": "सिस्टम ID",
+    "profile.stable_identity_shared_by_every_node_using": "इस सिस्टम डेटाबेस का उपयोग करने वाले हर नोड की साझा स्थिर पहचान।",
+    "profile.system_name": "सिस्टम नाम",
+    "profile.a_name_that_distinguishes_this_system_such": "इस सिस्टम को अलग पहचान देने वाला नाम, जैसे स्वीकृति या उत्पादन यूरोप।",
+    "profile.environment": "वातावरण",
+    "profile.development_permits_direct_package_changes_test_including": "विकास में सीधे पैकेज बदलाव अनुमत हैं। परीक्षण (बैकअप, पूर्व-उत्पादन और फ़ॉर्क सहित) और उत्पादन तैनाती प्राप्त करते हैं।",
+    "package.description": "80|20 सिस्टम-व्यापी सेटिंग और नोड टोपोलॉजी",
+    "programs.settings-set.description": "वैश्विक सेटिंग सेट करें",
+    "programs.settings-get.description": "वैश्विक सेटिंग प्राप्त करें",
+    "programs.nodes-set.description": "एप्लिकेशन-सर्वर नोड बनाएँ या अपडेट करें",
+    "programs.settings-list.description": "वैश्विक सेटिंग की सूची दिखाएँ",
+    "programs.settings-unset.description": "वैश्विक सेटिंग हटाएँ",
+    "programs.nodes-remove.description": "एप्लिकेशन-सर्वर नोड हटाएँ",
+    "programs.nodes-list.description": "एप्लिकेशन-सर्वर नोड की सूची दिखाएँ",
+    "declarations.auth.the8020.system.profile.edit": "साझा सिस्टम नाम और विकास/परीक्षण/उत्पादन भूमिका बदलें; मान खाली है।",
+    "declarations.auth.the8020.system.node.view": "क्लस्टर नोड और उनके पते सूचीबद्ध करें; मान खाली है।",
+    "declarations.auth.the8020.system.node.edit": "क्लस्टर नोड जोड़ें, बदलें या हटाएँ; मान नोड ID है।",
+    "declarations.auth.the8020.system.setting.view": "वैश्विक सेटिंग पढ़ें; मान सेटिंग कुंजी है, या सूची के लिए खाली है।",
+    "declarations.auth.the8020.system.setting.edit": "वैश्विक सेटिंग सेट करें या हटाएँ; मान सेटिंग कुंजी है।"
+  }
+}

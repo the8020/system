@@ -1,0 +1,24 @@
+{
+  "name": "日本語",
+  "texts": {
+    "profile.system_id": "システム ID",
+    "profile.stable_identity_shared_by_every_node_using": "このシステムデータベースを使用する全ノードで共有する固定の識別情報。",
+    "profile.system_name": "システム名",
+    "profile.a_name_that_distinguishes_this_system_such": "このシステムを区別する名前。例：「受入テスト」「欧州本番」。",
+    "profile.environment": "環境",
+    "profile.development_permits_direct_package_changes_test_including": "開発環境ではパッケージを直接変更できます。テスト（バックアップ、本番前、フォークを含む）と本番はデプロイを受け入れます。",
+    "package.description": "80|20 のシステム全体の設定とノード構成",
+    "programs.settings-set.description": "グローバル設定の設定",
+    "programs.settings-get.description": "グローバル設定の取得",
+    "programs.nodes-set.description": "アプリケーションサーバーノードの作成と更新",
+    "programs.settings-list.description": "グローバル設定の一覧",
+    "programs.settings-unset.description": "グローバル設定の削除",
+    "programs.nodes-remove.description": "アプリケーションサーバーノードの削除",
+    "programs.nodes-list.description": "アプリケーションサーバーノードの一覧",
+    "declarations.auth.the8020.system.profile.edit": "共有システム名と開発・テスト・本番の役割を変更します。値は空欄です。",
+    "declarations.auth.the8020.system.node.view": "クラスターノードとアドレスを一覧表示します。値は空欄です。",
+    "declarations.auth.the8020.system.node.edit": "クラスターノードを追加・変更・削除します。値はノード ID です。",
+    "declarations.auth.the8020.system.setting.view": "グローバル設定を読み取ります。値は設定キー。一覧の場合は空欄です。",
+    "declarations.auth.the8020.system.setting.edit": "グローバル設定を設定または削除します。値は設定キーです。"
+  }
+}

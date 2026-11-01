@@ -1,0 +1,24 @@
+{
+  "name": "ไทย",
+  "texts": {
+    "profile.system_id": "ID ระบบ",
+    "profile.stable_identity_shared_by_every_node_using": "ตัวตนคงที่ร่วมกันของทุกโหนดที่ใช้ฐานข้อมูลระบบนี้",
+    "profile.system_name": "ชื่อระบบ",
+    "profile.a_name_that_distinguishes_this_system_such": "ชื่อที่ช่วยแยกระบบนี้ เช่น ทดสอบการยอมรับ หรือระบบใช้งานจริงยุโรป",
+    "profile.environment": "สภาพแวดล้อม",
+    "profile.development_permits_direct_package_changes_test_including": "การพัฒนาอนุญาตให้เปลี่ยนแพ็กเกจโดยตรง การทดสอบ (รวมสำรอง ก่อนใช้งานจริง และสำเนาแยก) และใช้งานจริงรับการปรับใช้",
+    "package.description": "การตั้งค่าทั้งระบบและโครงสร้างโหนด 80|20",
+    "programs.settings-set.description": "กำหนดการตั้งค่าส่วนกลาง",
+    "programs.settings-get.description": "อ่านการตั้งค่าส่วนกลาง",
+    "programs.nodes-set.description": "สร้างหรืออัปเดตโหนดเซิร์ฟเวอร์แอปพลิเคชัน",
+    "programs.settings-list.description": "แสดงการตั้งค่าส่วนกลาง",
+    "programs.settings-unset.description": "ยกเลิกการตั้งค่าส่วนกลาง",
+    "programs.nodes-remove.description": "นำโหนดเซิร์ฟเวอร์แอปพลิเคชันออก",
+    "programs.nodes-list.description": "แสดงโหนดเซิร์ฟเวอร์แอปพลิเคชัน",
+    "declarations.auth.the8020.system.profile.edit": "เปลี่ยนชื่อระบบส่วนกลางและบทบาทพัฒนา/ทดสอบ/ใช้งานจริง ค่าเป็นว่าง",
+    "declarations.auth.the8020.system.node.view": "แสดงโหนดคลัสเตอร์และที่อยู่ ค่าเป็นว่าง",
+    "declarations.auth.the8020.system.node.edit": "เพิ่ม เปลี่ยน หรือนำโหนดคลัสเตอร์ออก ค่าเป็น ID โหนด",
+    "declarations.auth.the8020.system.setting.view": "อ่านการตั้งค่าส่วนกลาง ค่าเป็นคีย์การตั้งค่า หรือว่างเพื่อดูรายการ",
+    "declarations.auth.the8020.system.setting.edit": "กำหนดหรือยกเลิกการตั้งค่าส่วนกลาง ค่าเป็นคีย์การตั้งค่า"
+  }
+}

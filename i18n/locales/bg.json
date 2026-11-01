@@ -1,0 +1,24 @@
+{
+  "name": "Български",
+  "texts": {
+    "profile.system_id": "ID на системата",
+    "profile.stable_identity_shared_by_every_node_using": "Постоянен идентификатор, споделен от всички възли, които използват тази системна база данни.",
+    "profile.system_name": "Име на системата",
+    "profile.a_name_that_distinguishes_this_system_such": "Име, което отличава тази система, например Приемателни тестове или Продукционна Европа.",
+    "profile.environment": "Среда",
+    "profile.development_permits_direct_package_changes_test_including": "Средата за разработка позволява преки промени в пакетите. Тестовите среди (включително резервни, предпродукционни и разклонени) и продукционните среди получават внедрявания.",
+    "package.description": "Общи настройки и топология на възлите на 80|20",
+    "programs.settings-set.description": "Задава глобална настройка",
+    "programs.settings-get.description": "Прочита глобална настройка",
+    "programs.nodes-set.description": "Създава или обновява възел на приложния сървър",
+    "programs.settings-list.description": "Показва глобалните настройки",
+    "programs.settings-unset.description": "Премахва глобална настройка",
+    "programs.nodes-remove.description": "Премахва възел на приложния сървър",
+    "programs.nodes-list.description": "Показва възлите на приложния сървър",
+    "declarations.auth.the8020.system.profile.edit": "Промяна на общото име на системата и ролята ѝ за разработка, тестове или продукция; стойността е празна.",
+    "declarations.auth.the8020.system.node.view": "Преглед на възлите в клъстера и адресите им; стойността е празна.",
+    "declarations.auth.the8020.system.node.edit": "Добавяне, промяна или премахване на възел от клъстера; стойността е ID на възела.",
+    "declarations.auth.the8020.system.setting.view": "Прочитане на глобални настройки; стойността е ключът на настройката или е празна за списъка.",
+    "declarations.auth.the8020.system.setting.edit": "Задаване или премахване на глобална настройка; стойността е ключът на настройката."
+  }
+}

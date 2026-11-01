@@ -1,0 +1,24 @@
+{
+  "name": "Español",
+  "texts": {
+    "profile.system_id": "ID del sistema",
+    "profile.stable_identity_shared_by_every_node_using": "Identidad estable compartida por todos los nodos que usan esta base de datos del sistema.",
+    "profile.system_name": "Nombre del sistema",
+    "profile.a_name_that_distinguishes_this_system_such": "Un nombre que distinga este sistema, como Aceptación o Producción Europa.",
+    "profile.environment": "Entorno",
+    "profile.development_permits_direct_package_changes_test_including": "Desarrollo permite cambios directos en paquetes. Pruebas (incluidos respaldo, preproducción y bifurcaciones) y Producción reciben despliegues.",
+    "package.description": "Configuración global y topología de nodos de 80|20",
+    "programs.settings-set.description": "Establecer una configuración global",
+    "programs.settings-get.description": "Obtener una configuración global",
+    "programs.nodes-set.description": "Crear o actualizar un nodo de servidor de aplicaciones",
+    "programs.settings-list.description": "Listar configuraciones globales",
+    "programs.settings-unset.description": "Eliminar una configuración global",
+    "programs.nodes-remove.description": "Eliminar un nodo de servidor de aplicaciones",
+    "programs.nodes-list.description": "Listar nodos de servidor de aplicaciones",
+    "declarations.auth.the8020.system.profile.edit": "Cambiar el nombre compartido del sistema y su función de desarrollo, pruebas o producción; el valor está vacío.",
+    "declarations.auth.the8020.system.node.view": "Listar nodos del clúster y sus direcciones; el valor está vacío.",
+    "declarations.auth.the8020.system.node.edit": "Añadir, cambiar o eliminar un nodo del clúster; el valor es el ID del nodo.",
+    "declarations.auth.the8020.system.setting.view": "Leer configuraciones globales; el valor es la clave de configuración, o vacío para la lista.",
+    "declarations.auth.the8020.system.setting.edit": "Establecer o eliminar una configuración global; el valor es la clave de configuración."
+  }
+}

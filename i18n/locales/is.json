@@ -1,0 +1,24 @@
+{
+  "name": "Íslenska",
+  "texts": {
+    "profile.system_id": "Kerfisauðkenni",
+    "profile.stable_identity_shared_by_every_node_using": "Stöðugt auðkenni sem allir hnútar sem nota þennan kerfisgagnagrunn deila.",
+    "profile.system_name": "Kerfisheiti",
+    "profile.a_name_that_distinguishes_this_system_such": "Heiti sem aðgreinir þetta kerfi, til dæmis Samþykktarprófun eða Framleiðsla Evrópu.",
+    "profile.environment": "Umhverfi",
+    "profile.development_permits_direct_package_changes_test_including": "Þróun leyfir beinar pakkabreytingar. Prófun (þar á meðal öryggisafrit, forframleiðsla og afleidd kerfi) og Framleiðsla taka við dreifingum.",
+    "package.description": "80|20-kerfisstillingar og skipan hnúta",
+    "programs.settings-set.description": "Stilla almenna stillingu",
+    "programs.settings-get.description": "Sækja almenna stillingu",
+    "programs.nodes-set.description": "Búa til eða uppfæra forritaþjónshnút",
+    "programs.settings-list.description": "Birta almennar stillingar",
+    "programs.settings-unset.description": "Fjarlægja almenna stillingu",
+    "programs.nodes-remove.description": "Fjarlægja forritaþjónshnút",
+    "programs.nodes-list.description": "Birta forritaþjónshnúta",
+    "declarations.auth.the8020.system.profile.edit": "Breyta sameiginlegu kerfisheiti og hlutverki þróunar/prófunar/framleiðslu; gildið er autt.",
+    "declarations.auth.the8020.system.node.view": "Birta klasahnúta og vistföng þeirra; gildið er autt.",
+    "declarations.auth.the8020.system.node.edit": "Bæta við, breyta eða fjarlægja klasahnút; gildið er hnútsauðkenni.",
+    "declarations.auth.the8020.system.setting.view": "Lesa almennar stillingar; gildið er stillingarlykillinn, eða autt fyrir listann.",
+    "declarations.auth.the8020.system.setting.edit": "Stilla eða fjarlægja almenna stillingu; gildið er stillingarlykillinn."
+  }
+}

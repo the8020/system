@@ -1,0 +1,24 @@
+{
+  "name": "简体中文",
+  "texts": {
+    "profile.system_id": "系统 ID",
+    "profile.stable_identity_shared_by_every_node_using": "所有使用此系统数据库的节点共享的稳定标识。",
+    "profile.system_name": "系统名称",
+    "profile.a_name_that_distinguishes_this_system_such": "用于区分此系统的名称，例如“验收”或“欧洲生产”。",
+    "profile.environment": "环境",
+    "profile.development_permits_direct_package_changes_test_including": "开发环境允许直接更改软件包。测试环境（含备份、预生产和分叉）及生产环境通过部署接收更改。",
+    "package.description": "80|20 系统全局设置和节点拓扑",
+    "programs.settings-set.description": "设置全局设置",
+    "programs.settings-get.description": "获取全局设置",
+    "programs.nodes-set.description": "创建或更新应用服务器节点",
+    "programs.settings-list.description": "列出全局设置",
+    "programs.settings-unset.description": "移除全局设置",
+    "programs.nodes-remove.description": "移除应用服务器节点",
+    "programs.nodes-list.description": "列出应用服务器节点",
+    "declarations.auth.the8020.system.profile.edit": "更改共享系统名称及开发/测试/生产角色；值为空。",
+    "declarations.auth.the8020.system.node.view": "列出集群节点及其地址；值为空。",
+    "declarations.auth.the8020.system.node.edit": "添加、更改或移除集群节点；值为节点 ID。",
+    "declarations.auth.the8020.system.setting.view": "读取全局设置；值为设置键，留空查看列表。",
+    "declarations.auth.the8020.system.setting.edit": "设置或移除全局设置；值为设置键。"
+  }
+}

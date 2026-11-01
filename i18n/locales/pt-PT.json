@@ -1,0 +1,24 @@
+{
+  "name": "Português (Portugal)",
+  "texts": {
+    "profile.system_id": "ID do sistema",
+    "profile.stable_identity_shared_by_every_node_using": "Identidade estável partilhada por todos os nós que usam esta base de dados do sistema.",
+    "profile.system_name": "Nome do sistema",
+    "profile.a_name_that_distinguishes_this_system_such": "Um nome que distingue este sistema, como Homologação ou Produção Europa.",
+    "profile.environment": "Ambiente",
+    "profile.development_permits_direct_package_changes_test_including": "Desenvolvimento permite alterações diretas nos pacotes. Teste (incluindo cópias de segurança, pré-produção e derivações) e Produção recebem implementações.",
+    "package.description": "Configurações globais e topologia dos nós do 80|20",
+    "programs.settings-set.description": "Definir uma configuração global",
+    "programs.settings-get.description": "Obter uma configuração global",
+    "programs.nodes-set.description": "Criar ou atualizar um nó de servidor de aplicações",
+    "programs.settings-list.description": "Listar configurações globais",
+    "programs.settings-unset.description": "Remover uma configuração global",
+    "programs.nodes-remove.description": "Remover um nó de servidor de aplicações",
+    "programs.nodes-list.description": "Listar nós de servidores de aplicações",
+    "declarations.auth.the8020.system.profile.edit": "Alterar o nome partilhado do sistema e a função de desenvolvimento/teste/produção; o valor é vazio.",
+    "declarations.auth.the8020.system.node.view": "Listar nós do cluster e os seus endereços; o valor é vazio.",
+    "declarations.auth.the8020.system.node.edit": "Adicionar, alterar ou remover um nó do cluster; o valor é o ID do nó.",
+    "declarations.auth.the8020.system.setting.view": "Ler configurações globais; o valor é a chave da configuração, ou vazio para a lista.",
+    "declarations.auth.the8020.system.setting.edit": "Definir ou remover uma configuração global; o valor é a chave da configuração."
+  }
+}

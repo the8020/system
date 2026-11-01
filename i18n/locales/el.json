@@ -1,0 +1,24 @@
+{
+  "name": "Ελληνικά",
+  "texts": {
+    "profile.system_id": "Αναγνωριστικό συστήματος",
+    "profile.stable_identity_shared_by_every_node_using": "Σταθερή ταυτότητα κοινή σε όλους τους κόμβους που χρησιμοποιούν αυτή τη βάση δεδομένων συστήματος.",
+    "profile.system_name": "Όνομα συστήματος",
+    "profile.a_name_that_distinguishes_this_system_such": "Όνομα που διακρίνει αυτό το σύστημα, όπως Δοκιμές αποδοχής ή Παραγωγή Ευρώπης.",
+    "profile.environment": "Περιβάλλον",
+    "profile.development_permits_direct_package_changes_test_including": "Η Ανάπτυξη επιτρέπει άμεσες αλλαγές πακέτων. Οι Δοκιμές (μαζί με αντίγραφα ασφαλείας, προπαραγωγή και διακλαδώσεις) και η Παραγωγή δέχονται εγκαταστάσεις εκδόσεων.",
+    "package.description": "Καθολικές ρυθμίσεις και τοπολογία κόμβων του 80|20",
+    "programs.settings-set.description": "Ορισμός καθολικής ρύθμισης",
+    "programs.settings-get.description": "Ανάκτηση καθολικής ρύθμισης",
+    "programs.nodes-set.description": "Δημιουργία ή ενημέρωση κόμβου διακομιστή εφαρμογών",
+    "programs.settings-list.description": "Λίστα καθολικών ρυθμίσεων",
+    "programs.settings-unset.description": "Κατάργηση καθολικής ρύθμισης",
+    "programs.nodes-remove.description": "Αφαίρεση κόμβου διακομιστή εφαρμογών",
+    "programs.nodes-list.description": "Λίστα κόμβων διακομιστή εφαρμογών",
+    "declarations.auth.the8020.system.profile.edit": "Αλλαγή του κοινού ονόματος συστήματος και του ρόλου ανάπτυξης/δοκιμών/παραγωγής· η τιμή είναι κενή.",
+    "declarations.auth.the8020.system.node.view": "Λίστα κόμβων συστοιχίας και διευθύνσεών τους· η τιμή είναι κενή.",
+    "declarations.auth.the8020.system.node.edit": "Προσθήκη, αλλαγή ή αφαίρεση κόμβου συστοιχίας· η τιμή είναι το αναγνωριστικό κόμβου.",
+    "declarations.auth.the8020.system.setting.view": "Ανάγνωση καθολικών ρυθμίσεων· η τιμή είναι το κλειδί ρύθμισης ή κενή για τη λίστα.",
+    "declarations.auth.the8020.system.setting.edit": "Ορισμός ή κατάργηση καθολικής ρύθμισης· η τιμή είναι το κλειδί ρύθμισης."
+  }
+}

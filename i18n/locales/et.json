@@ -1,0 +1,24 @@
+{
+  "name": "Eesti",
+  "texts": {
+    "profile.system_id": "Süsteemi ID",
+    "profile.stable_identity_shared_by_every_node_using": "Püsiv identiteet, mida jagavad kõik seda süsteemi andmebaasi kasutavad sõlmed.",
+    "profile.system_name": "Süsteemi nimi",
+    "profile.a_name_that_distinguishes_this_system_such": "Süsteemi eristav nimi, näiteks Vastuvõtutest või Tootmine Euroopa.",
+    "profile.environment": "Keskkond",
+    "profile.development_permits_direct_package_changes_test_including": "Arendus lubab pakettide otsest muutmist. Test (sealhulgas varukoopiad, eeltootmine ja harud) ning Tootmine võtavad vastu juurutusi.",
+    "package.description": "80|20 süsteemiülesed seaded ja sõlmede topoloogia",
+    "programs.settings-set.description": "Määra üldine seade",
+    "programs.settings-get.description": "Hangi üldine seade",
+    "programs.nodes-set.description": "Loo või uuenda rakendusserveri sõlme",
+    "programs.settings-list.description": "Loetle üldised seaded",
+    "programs.settings-unset.description": "Eemalda üldine seade",
+    "programs.nodes-remove.description": "Eemalda rakendusserveri sõlm",
+    "programs.nodes-list.description": "Loetle rakendusserveri sõlmed",
+    "declarations.auth.the8020.system.profile.edit": "Muuda ühist süsteeminime ja arenduse/testi/tootmise rolli; väärtus on tühi.",
+    "declarations.auth.the8020.system.node.view": "Loetle klastri sõlmed ja nende aadressid; väärtus on tühi.",
+    "declarations.auth.the8020.system.node.edit": "Lisa, muuda või eemalda klastri sõlm; väärtus on sõlme ID.",
+    "declarations.auth.the8020.system.setting.view": "Loe üldisi seadeid; väärtus on seade võti või loendi jaoks tühi.",
+    "declarations.auth.the8020.system.setting.edit": "Määra või eemalda üldine seade; väärtus on seade võti."
+  }
+}
