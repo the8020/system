@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Daftar node klaster dan alamatnya; nilainya kosong.",
     "declarations.auth.the8020.system.node.edit": "Tambah, ubah, atau hapus node klaster; nilainya ID node.",
     "declarations.auth.the8020.system.setting.view": "Baca pengaturan global; nilainya kunci pengaturan, atau kosong untuk daftar.",
-    "declarations.auth.the8020.system.setting.edit": "Tetapkan atau hapus pengaturan global; nilainya kunci pengaturan."
+    "declarations.auth.the8020.system.setting.edit": "Tetapkan atau hapus pengaturan global; nilainya kunci pengaturan.",
+    "profile.direct_changes_require_development": "Perubahan paket secara langsung memerlukan sistem pengembangan. Gunakan Deployment untuk mengimpor versi."
   }
 }

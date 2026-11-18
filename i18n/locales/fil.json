@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Ilista ang mga node ng cluster at kanilang address; blangko ang halaga.",
     "declarations.auth.the8020.system.node.edit": "Magdagdag, magbago, o mag-alis ng node ng cluster; ang halaga ay ID ng node.",
     "declarations.auth.the8020.system.setting.view": "Basahin ang mga pandaigdigang setting; ang halaga ay susi ng setting, o blangko para sa listahan.",
-    "declarations.auth.the8020.system.setting.edit": "Itakda o alisin ang pandaigdigang setting; ang halaga ay susi ng setting."
+    "declarations.auth.the8020.system.setting.edit": "Itakda o alisin ang pandaigdigang setting; ang halaga ay susi ng setting.",
+    "profile.direct_changes_require_development": "Kailangan ng development system para sa direktang pagbabago ng mga package. Gamitin ang Mga deployment para mag-import ng bersyon."
   }
 }

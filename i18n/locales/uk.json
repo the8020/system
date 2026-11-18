@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Показує вузли кластера та їхні адреси; значення порожнє.",
     "declarations.auth.the8020.system.node.edit": "Додає, змінює або видаляє вузол кластера; значення — ID вузла.",
     "declarations.auth.the8020.system.setting.view": "Читає глобальні налаштування; значення — ключ налаштування або порожнє для списку.",
-    "declarations.auth.the8020.system.setting.edit": "Задає або видаляє глобальне налаштування; значення — ключ налаштування."
+    "declarations.auth.the8020.system.setting.edit": "Задає або видаляє глобальне налаштування; значення — ключ налаштування.",
+    "profile.direct_changes_require_development": "Прямі зміни пакетів потребують системи розробки. Використовуйте Розгортання для імпорту версії."
   }
 }

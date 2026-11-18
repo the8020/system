@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Liệt kê nút cụm và địa chỉ; giá trị để trống.",
     "declarations.auth.the8020.system.node.edit": "Thêm, đổi hoặc gỡ nút cụm; giá trị là ID nút.",
     "declarations.auth.the8020.system.setting.view": "Đọc cài đặt toàn cục; giá trị là khóa cài đặt, hoặc trống để lấy danh sách.",
-    "declarations.auth.the8020.system.setting.edit": "Đặt hoặc bỏ cài đặt toàn cục; giá trị là khóa cài đặt."
+    "declarations.auth.the8020.system.setting.edit": "Đặt hoặc bỏ cài đặt toàn cục; giá trị là khóa cài đặt.",
+    "profile.direct_changes_require_development": "Thay đổi gói trực tiếp yêu cầu hệ thống phát triển. Dùng Triển khai để nhập phiên bản."
   }
 }

@@ -7,7 +7,7 @@
     "profile.a_name_that_distinguishes_this_system_such": "اسم يميّز هذا النظام، مثل القبول أو الإنتاج في أوروبا.",
     "profile.environment": "البيئة",
     "profile.development_permits_direct_package_changes_test_including": "تسمح بيئة التطوير بتعديل الحزم مباشرة. وتتلقى بيئتا الاختبار (بما فيها النسخ الاحتياطية وما قبل الإنتاج والنسخ المتفرعة) والإنتاج عمليات النشر.",
-    "package.description": "إعدادات \u206680|20\u2069 العامة وبنية العقد",
+    "package.description": "إعدادات ⁦80|20⁩ العامة وبنية العقد",
     "programs.settings-set.description": "تعيين إعداد عام",
     "programs.settings-get.description": "قراءة إعداد عام",
     "programs.nodes-set.description": "إنشاء عقدة خادم تطبيقات أو تحديثها",
@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "عرض عقد المجموعة وعناوينها؛ القيمة فارغة.",
     "declarations.auth.the8020.system.node.edit": "إضافة عقدة إلى المجموعة أو تعديلها أو إزالتها؛ القيمة هي معرّف العقدة.",
     "declarations.auth.the8020.system.setting.view": "قراءة الإعدادات العامة؛ القيمة هي مفتاح الإعداد، أو فارغة لعرض القائمة.",
-    "declarations.auth.the8020.system.setting.edit": "تعيين إعداد عام أو إلغاء تعيينه؛ القيمة هي مفتاح الإعداد."
+    "declarations.auth.the8020.system.setting.edit": "تعيين إعداد عام أو إلغاء تعيينه؛ القيمة هي مفتاح الإعداد.",
+    "profile.direct_changes_require_development": "تتطلب التغييرات المباشرة على الحزم نظام تطوير. استخدم عمليات النشر لاستيراد إصدار."
   }
 }

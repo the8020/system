@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Rodyti klasterio mazgus ir jų adresus; reikšmė tuščia.",
     "declarations.auth.the8020.system.node.edit": "Pridėti, keisti arba pašalinti klasterio mazgą; reikšmė yra mazgo ID.",
     "declarations.auth.the8020.system.setting.view": "Skaityti bendruosius nustatymus; reikšmė yra nustatymo raktas arba tuščia sąrašui.",
-    "declarations.auth.the8020.system.setting.edit": "Nustatyti arba pašalinti bendrąjį nustatymą; reikšmė yra nustatymo raktas."
+    "declarations.auth.the8020.system.setting.edit": "Nustatyti arba pašalinti bendrąjį nustatymą; reikšmė yra nustatymo raktas.",
+    "profile.direct_changes_require_development": "Tiesioginiams paketų pakeitimams reikia kūrimo sistemos. Versiją importuokite per Diegimus."
   }
 }

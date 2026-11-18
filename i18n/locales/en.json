@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "List cluster nodes and their addresses; value is empty.",
     "declarations.auth.the8020.system.node.edit": "Add, change or remove a cluster node; value is the node ID.",
     "declarations.auth.the8020.system.setting.view": "Read global settings; value is the setting key, or empty for the list.",
-    "declarations.auth.the8020.system.setting.edit": "Set or unset a global setting; value is the setting key."
+    "declarations.auth.the8020.system.setting.edit": "Set or unset a global setting; value is the setting key.",
+    "profile.direct_changes_require_development": "Direct package changes require a development system. Use Deployments to import a version."
   }
 }

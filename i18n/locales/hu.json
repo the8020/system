@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Fürtcsomópontok és címeik listázása; az érték üres.",
     "declarations.auth.the8020.system.node.edit": "Fürtcsomópont hozzáadása, módosítása vagy eltávolítása; az érték a csomópont azonosítója.",
     "declarations.auth.the8020.system.setting.view": "Globális beállítások olvasása; az érték a beállítás kulcsa, vagy üres a listához.",
-    "declarations.auth.the8020.system.setting.edit": "Globális beállítás megadása vagy törlése; az érték a beállítás kulcsa."
+    "declarations.auth.the8020.system.setting.edit": "Globális beállítás megadása vagy törlése; az érték a beállítás kulcsa.",
+    "profile.direct_changes_require_development": "A csomagok közvetlen módosításához fejlesztői rendszer szükséges. Verzió importálásához használja a Telepítések funkciót."
   }
 }

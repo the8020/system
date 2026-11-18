@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "列出集群节点及其地址；值为空。",
     "declarations.auth.the8020.system.node.edit": "添加、更改或移除集群节点；值为节点 ID。",
     "declarations.auth.the8020.system.setting.view": "读取全局设置；值为设置键，留空查看列表。",
-    "declarations.auth.the8020.system.setting.edit": "设置或移除全局设置；值为设置键。"
+    "declarations.auth.the8020.system.setting.edit": "设置或移除全局设置；值为设置键。",
+    "profile.direct_changes_require_development": "直接更改软件包需要开发系统。请使用“部署”导入版本。"
   }
 }

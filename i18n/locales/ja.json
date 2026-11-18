@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "クラスターノードとアドレスを一覧表示します。値は空欄です。",
     "declarations.auth.the8020.system.node.edit": "クラスターノードを追加・変更・削除します。値はノード ID です。",
     "declarations.auth.the8020.system.setting.view": "グローバル設定を読み取ります。値は設定キー。一覧の場合は空欄です。",
-    "declarations.auth.the8020.system.setting.edit": "グローバル設定を設定または削除します。値は設定キーです。"
+    "declarations.auth.the8020.system.setting.edit": "グローバル設定を設定または削除します。値は設定キーです。",
+    "profile.direct_changes_require_development": "パッケージを直接変更するには開発システムが必要です。バージョンのインポートには「デプロイ」を使用してください。"
   }
 }

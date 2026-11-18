@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Pregled čvorova klastera i njihovih adresa; vrijednost je prazna.",
     "declarations.auth.the8020.system.node.edit": "Dodavanje, promjena ili uklanjanje čvora klastera; vrijednost je ID čvora.",
     "declarations.auth.the8020.system.setting.view": "Čitanje globalnih postavki; vrijednost je ključ postavke ili prazna za popis.",
-    "declarations.auth.the8020.system.setting.edit": "Postavljanje ili uklanjanje globalne postavke; vrijednost je ključ postavke."
+    "declarations.auth.the8020.system.setting.edit": "Postavljanje ili uklanjanje globalne postavke; vrijednost je ključ postavke.",
+    "profile.direct_changes_require_development": "Izravne promjene paketa zahtijevaju razvojni sustav. Za uvoz verzije koristite Implementacije."
   }
 }

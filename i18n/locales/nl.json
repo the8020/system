@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Geef clusterknooppunten en hun adressen weer; de waarde is leeg.",
     "declarations.auth.the8020.system.node.edit": "Voeg een clusterknooppunt toe, wijzig of verwijder het; de waarde is de knooppunt-ID.",
     "declarations.auth.the8020.system.setting.view": "Lees algemene instellingen; de waarde is de instellingssleutel, of leeg voor de lijst.",
-    "declarations.auth.the8020.system.setting.edit": "Stel een algemene instelling in of verwijder deze; de waarde is de instellingssleutel."
+    "declarations.auth.the8020.system.setting.edit": "Stel een algemene instelling in of verwijder deze; de waarde is de instellingssleutel.",
+    "profile.direct_changes_require_development": "Directe pakketwijzigingen vereisen een ontwikkelsysteem. Gebruik Uitrolacties om een versie te importeren."
   }
 }

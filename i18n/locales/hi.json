@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "क्लस्टर नोड और उनके पते सूचीबद्ध करें; मान खाली है।",
     "declarations.auth.the8020.system.node.edit": "क्लस्टर नोड जोड़ें, बदलें या हटाएँ; मान नोड ID है।",
     "declarations.auth.the8020.system.setting.view": "वैश्विक सेटिंग पढ़ें; मान सेटिंग कुंजी है, या सूची के लिए खाली है।",
-    "declarations.auth.the8020.system.setting.edit": "वैश्विक सेटिंग सेट करें या हटाएँ; मान सेटिंग कुंजी है।"
+    "declarations.auth.the8020.system.setting.edit": "वैश्विक सेटिंग सेट करें या हटाएँ; मान सेटिंग कुंजी है।",
+    "profile.direct_changes_require_development": "पैकेजों में सीधे बदलाव के लिए विकास प्रणाली आवश्यक है। संस्करण आयात करने के लिए तैनाती का उपयोग करें।"
   }
 }

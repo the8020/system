@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Pregled vozlišč gruče in njihovih naslovov; vrednost je prazna.",
     "declarations.auth.the8020.system.node.edit": "Dodajanje, spreminjanje ali odstranjevanje vozlišča gruče; vrednost je ID vozlišča.",
     "declarations.auth.the8020.system.setting.view": "Branje globalnih nastavitev; vrednost je ključ nastavitve ali prazna za seznam.",
-    "declarations.auth.the8020.system.setting.edit": "Nastavitev ali odstranitev globalne nastavitve; vrednost je ključ nastavitve."
+    "declarations.auth.the8020.system.setting.edit": "Nastavitev ali odstranitev globalne nastavitve; vrednost je ključ nastavitve.",
+    "profile.direct_changes_require_development": "Neposredne spremembe paketov zahtevajo razvojni sistem. Za uvoz različice uporabite Uvedbe."
   }
 }

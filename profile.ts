@@ -1,4 +1,5 @@
 import { msg } from "/p/the8020/system/i18n/messages.ts";
+import { prepareTexts, text } from "/p/the8020/i18n/mod.ts";
 import { field, z } from "/p/the8020/db/fields.ts";
 import { newId } from "@the8020/kernel";
 
@@ -61,8 +62,8 @@ export async function setSystemProfile(input: unknown): Promise<SystemProfile> {
 
 export async function requireDevelopment(): Promise<void> {
   if ((await getSystemProfile()).role !== "development") {
-    throw new Error(
-      "Direct package changes require a development system. Use Deployments to import a version.",
-    );
+    const message = msg("profile.direct_changes_require_development");
+    await prepareTexts(message);
+    throw new Error(text(message));
   }
 }

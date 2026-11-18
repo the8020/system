@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Listar nodos del clúster y sus direcciones; el valor está vacío.",
     "declarations.auth.the8020.system.node.edit": "Añadir, cambiar o eliminar un nodo del clúster; el valor es el ID del nodo.",
     "declarations.auth.the8020.system.setting.view": "Leer configuraciones globales; el valor es la clave de configuración, o vacío para la lista.",
-    "declarations.auth.the8020.system.setting.edit": "Establecer o eliminar una configuración global; el valor es la clave de configuración."
+    "declarations.auth.the8020.system.setting.edit": "Establecer o eliminar una configuración global; el valor es la clave de configuración.",
+    "profile.direct_changes_require_development": "Los cambios directos en los paquetes requieren un sistema de desarrollo. Use Despliegues para importar una versión."
   }
 }
