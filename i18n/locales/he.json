@@ -7,7 +7,7 @@
     "profile.a_name_that_distinguishes_this_system_such": "שם שמבדיל מערכת זו מאחרות, כגון בדיקות קבלה או ייצור אירופה.",
     "profile.environment": "סביבה",
     "profile.development_permits_direct_package_changes_test_including": "סביבת פיתוח מאפשרת שינוי ישיר של חבילות. סביבת בדיקות (כולל גיבוי, קדם־ייצור והסתעפויות) וסביבת ייצור מקבלות פריסות.",
-    "package.description": "הגדרות כלל־מערכתיות וטופולוגיית הצמתים של \u206680|20\u2069",
+    "package.description": "הגדרות כלל־מערכתיות וטופולוגיית הצמתים של ⁦80|20⁩",
     "programs.settings-set.description": "קביעת הגדרה כללית",
     "programs.settings-get.description": "קריאת הגדרה כללית",
     "programs.nodes-set.description": "יצירה או עדכון של צומת שרת יישומים",

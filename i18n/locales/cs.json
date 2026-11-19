@@ -20,6 +20,6 @@
     "declarations.auth.the8020.system.node.edit": "Přidání, změna nebo odstranění uzlu clusteru; hodnotou je ID uzlu.",
     "declarations.auth.the8020.system.setting.view": "Čtení globálních nastavení; hodnotou je klíč nastavení, nebo prázdná hodnota pro seznam.",
     "declarations.auth.the8020.system.setting.edit": "Nastavení nebo odstranění globální hodnoty; hodnotou je klíč nastavení.",
-    "profile.direct_changes_require_development": "Přímé změny balíčků vyžadují vývojový systém. Verzi importujte pomocí programu Nasazení."
+    "profile.direct_changes_require_development": "Přímé změny balíčků vyžadují vývojový systém. Verzi importujte pomocí Nasazení."
   }
 }

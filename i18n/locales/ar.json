@@ -7,7 +7,7 @@
     "profile.a_name_that_distinguishes_this_system_such": "اسم يميّز هذا النظام، مثل القبول أو الإنتاج في أوروبا.",
     "profile.environment": "البيئة",
     "profile.development_permits_direct_package_changes_test_including": "تسمح بيئة التطوير بتعديل الحزم مباشرة. وتتلقى بيئتا الاختبار (بما فيها النسخ الاحتياطية وما قبل الإنتاج والنسخ المتفرعة) والإنتاج عمليات النشر.",
-    "package.description": "إعدادات \u206680|20\u2069 العامة وبنية العقد",
+    "package.description": "إعدادات ⁦80|20⁩ العامة وبنية العقد",
     "programs.settings-set.description": "تعيين إعداد عام",
     "programs.settings-get.description": "قراءة إعداد عام",
     "programs.nodes-set.description": "إنشاء عقدة خادم تطبيقات أو تحديثها",

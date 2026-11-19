@@ -7,7 +7,7 @@
     "profile.a_name_that_distinguishes_this_system_such": "نامی که این سیستم را مشخص کند، مانند پذیرش یا تولید اروپا.",
     "profile.environment": "محیط",
     "profile.development_permits_direct_package_changes_test_including": "محیط توسعه اجازهٔ تغییر مستقیم بسته‌ها را می‌دهد. محیط‌های آزمایش (شامل پشتیبان، پیش‌تولید و شاخه‌های مستقل) و تولید، استقرارها را دریافت می‌کنند.",
-    "package.description": "تنظیمات سراسری و ساختار گره‌های \u206680|20\u2069",
+    "package.description": "تنظیمات سراسری و ساختار گره‌های ⁦80|20⁩",
     "programs.settings-set.description": "تعیین یک تنظیم سراسری",
     "programs.settings-get.description": "خواندن یک تنظیم سراسری",
     "programs.nodes-set.description": "ایجاد یا به‌روزرسانی یک گرهٔ سرور برنامه",

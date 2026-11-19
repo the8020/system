@@ -33,7 +33,7 @@ Deno.test("direct package policy resolves errors in the invocation language", as
         [
           "cs",
           czech,
-          "Přímé změny balíčků vyžadují vývojový systém. Verzi importujte pomocí programu Nasazení.",
+          "Přímé změny balíčků vyžadují vývojový systém. Verzi importujte pomocí Nasazení.",
         ],
         [
           "en",
