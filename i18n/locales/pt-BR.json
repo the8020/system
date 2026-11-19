@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Listar nós do cluster e os seus endereços; o valor é vazio.",
     "declarations.auth.the8020.system.node.edit": "Adicionar, alterar ou remover um nó do cluster; o valor é o ID do nó.",
     "declarations.auth.the8020.system.setting.view": "Ler configurações globais; o valor é a chave da configuração, ou vazio para a lista.",
-    "declarations.auth.the8020.system.setting.edit": "Definir ou remover uma configuração global; o valor é a chave da configuração."
+    "declarations.auth.the8020.system.setting.edit": "Definir ou remover uma configuração global; o valor é a chave da configuração.",
+    "profile.direct_changes_require_development": "Alterações diretas nos pacotes exigem um sistema de desenvolvimento. Use Implantações para importar uma versão."
   }
 }

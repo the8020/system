@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Zoznam uzlov klastra a ich adries; hodnota je prázdna.",
     "declarations.auth.the8020.system.node.edit": "Pridanie, zmena alebo odstránenie uzla klastra; hodnotou je ID uzla.",
     "declarations.auth.the8020.system.setting.view": "Čítanie globálnych nastavení; hodnotou je kľúč nastavenia, alebo prázdna hodnota pre zoznam.",
-    "declarations.auth.the8020.system.setting.edit": "Nastavenie alebo odstránenie globálnej hodnoty; hodnotou je kľúč nastavenia."
+    "declarations.auth.the8020.system.setting.edit": "Nastavenie alebo odstránenie globálnej hodnoty; hodnotou je kľúč nastavenia.",
+    "profile.direct_changes_require_development": "Priame zmeny balíkov vyžadujú vývojový systém. Verziu importujte pomocou programu Nasadenia."
   }
 }

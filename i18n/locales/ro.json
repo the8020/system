@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Listează nodurile clusterului și adresele lor; valoarea este goală.",
     "declarations.auth.the8020.system.node.edit": "Adaugă, modifică sau elimină un nod din cluster; valoarea este ID-ul nodului.",
     "declarations.auth.the8020.system.setting.view": "Citește setările globale; valoarea este cheia setării sau goală pentru listă.",
-    "declarations.auth.the8020.system.setting.edit": "Stabilește sau elimină o setare globală; valoarea este cheia setării."
+    "declarations.auth.the8020.system.setting.edit": "Stabilește sau elimină o setare globală; valoarea este cheia setării.",
+    "profile.direct_changes_require_development": "Modificările directe ale pachetelor necesită un sistem de dezvoltare. Folosiți Implementări pentru a importa o versiune."
   }
 }

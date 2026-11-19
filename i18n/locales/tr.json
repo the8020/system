@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Küme düğümlerini ve adreslerini listeler; değer boştur.",
     "declarations.auth.the8020.system.node.edit": "Küme düğümü ekler, değiştirir veya kaldırır; değer düğüm kimliğidir.",
     "declarations.auth.the8020.system.setting.view": "Genel ayarları okur; değer ayar anahtarıdır, liste için boştur.",
-    "declarations.auth.the8020.system.setting.edit": "Genel ayar belirler veya kaldırır; değer ayar anahtarıdır."
+    "declarations.auth.the8020.system.setting.edit": "Genel ayar belirler veya kaldırır; değer ayar anahtarıdır.",
+    "profile.direct_changes_require_development": "Doğrudan paket değişiklikleri bir geliştirme sistemi gerektirir. Bir sürümü içe aktarmak için Dağıtımlar'ı kullanın."
   }
 }

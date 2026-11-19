@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "แสดงโหนดคลัสเตอร์และที่อยู่ ค่าเป็นว่าง",
     "declarations.auth.the8020.system.node.edit": "เพิ่ม เปลี่ยน หรือนำโหนดคลัสเตอร์ออก ค่าเป็น ID โหนด",
     "declarations.auth.the8020.system.setting.view": "อ่านการตั้งค่าส่วนกลาง ค่าเป็นคีย์การตั้งค่า หรือว่างเพื่อดูรายการ",
-    "declarations.auth.the8020.system.setting.edit": "กำหนดหรือยกเลิกการตั้งค่าส่วนกลาง ค่าเป็นคีย์การตั้งค่า"
+    "declarations.auth.the8020.system.setting.edit": "กำหนดหรือยกเลิกการตั้งค่าส่วนกลาง ค่าเป็นคีย์การตั้งค่า",
+    "profile.direct_changes_require_development": "การเปลี่ยนแปลงแพ็กเกจโดยตรงต้องใช้ระบบพัฒนา ใช้การปรับใช้เพื่อนำเข้าเวอร์ชัน"
   }
 }

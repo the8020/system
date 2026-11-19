@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Elenca i nodi del cluster e i loro indirizzi; il valore è vuoto.",
     "declarations.auth.the8020.system.node.edit": "Aggiungi, modifica o rimuovi un nodo del cluster; il valore è l'ID del nodo.",
     "declarations.auth.the8020.system.setting.view": "Leggi le impostazioni globali; il valore è la chiave dell'impostazione, oppure vuoto per l'elenco.",
-    "declarations.auth.the8020.system.setting.edit": "Imposta o rimuovi un'impostazione globale; il valore è la chiave dell'impostazione."
+    "declarations.auth.the8020.system.setting.edit": "Imposta o rimuovi un'impostazione globale; il valore è la chiave dell'impostazione.",
+    "profile.direct_changes_require_development": "Le modifiche dirette ai pacchetti richiedono un sistema di sviluppo. Usa Distribuzioni per importare una versione."
   }
 }

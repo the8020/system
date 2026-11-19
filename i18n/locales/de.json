@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Clusterknoten und ihre Adressen auflisten; der Wert ist leer.",
     "declarations.auth.the8020.system.node.edit": "Einen Clusterknoten hinzufügen, ändern oder entfernen; der Wert ist die Knoten-ID.",
     "declarations.auth.the8020.system.setting.view": "Globale Einstellungen lesen; der Wert ist der Einstellungsschlüssel, für die Liste leer.",
-    "declarations.auth.the8020.system.setting.edit": "Eine globale Einstellung setzen oder zurücksetzen; der Wert ist der Einstellungsschlüssel."
+    "declarations.auth.the8020.system.setting.edit": "Eine globale Einstellung setzen oder zurücksetzen; der Wert ist der Einstellungsschlüssel.",
+    "profile.direct_changes_require_development": "Direkte Paketänderungen erfordern ein Entwicklungssystem. Importieren Sie eine Version über Bereitstellungen."
   }
 }

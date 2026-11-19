@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Luettele klusterin solmut ja niiden osoitteet; arvo on tyhjä.",
     "declarations.auth.the8020.system.node.edit": "Lisää, muuta tai poista klusterin solmu; arvo on solmun tunnus.",
     "declarations.auth.the8020.system.setting.view": "Lue yleiset asetukset; arvo on asetuksen avain tai tyhjä luetteloa varten.",
-    "declarations.auth.the8020.system.setting.edit": "Aseta tai poista yleinen asetus; arvo on asetuksen avain."
+    "declarations.auth.the8020.system.setting.edit": "Aseta tai poista yleinen asetus; arvo on asetuksen avain.",
+    "profile.direct_changes_require_development": "Pakettien suorat muutokset vaativat kehitysjärjestelmän. Tuo versio Käyttöönotot-toiminnolla."
   }
 }

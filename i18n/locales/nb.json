@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Vis klyngenoder og adressene deres; verdien er tom.",
     "declarations.auth.the8020.system.node.edit": "Legg til, endre eller fjern en klyngenode; verdien er node-ID.",
     "declarations.auth.the8020.system.setting.view": "Les globale innstillinger; verdien er innstillingsnøkkelen, eller tom for listen.",
-    "declarations.auth.the8020.system.setting.edit": "Angi eller fjern en global innstilling; verdien er innstillingsnøkkelen."
+    "declarations.auth.the8020.system.setting.edit": "Angi eller fjern en global innstilling; verdien er innstillingsnøkkelen.",
+    "profile.direct_changes_require_development": "Direkte pakkeendringer krever et utviklingssystem. Bruk Utrullinger for å importere en versjon."
   }
 }

@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Uzskaitīt klastera mezglus un to adreses; vērtība ir tukša.",
     "declarations.auth.the8020.system.node.edit": "Pievienot, mainīt vai noņemt klastera mezglu; vērtība ir mezgla ID.",
     "declarations.auth.the8020.system.setting.view": "Lasīt globālos iestatījumus; vērtība ir iestatījuma atslēga vai tukša sarakstam.",
-    "declarations.auth.the8020.system.setting.edit": "Iestatīt vai noņemt globālu iestatījumu; vērtība ir iestatījuma atslēga."
+    "declarations.auth.the8020.system.setting.edit": "Iestatīt vai noņemt globālu iestatījumu; vērtība ir iestatījuma atslēga.",
+    "profile.direct_changes_require_development": "Tiešām pakotņu izmaiņām nepieciešama izstrādes sistēma. Versiju importējiet sadaļā Izvietojumi."
   }
 }

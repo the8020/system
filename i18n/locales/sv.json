@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Lista klusternoder och deras adresser; värdet är tomt.",
     "declarations.auth.the8020.system.node.edit": "Lägg till, ändra eller ta bort en klusternod; värdet är nod-ID.",
     "declarations.auth.the8020.system.setting.view": "Läs globala inställningar; värdet är inställningsnyckeln eller tomt för listan.",
-    "declarations.auth.the8020.system.setting.edit": "Ange eller ta bort en global inställning; värdet är inställningsnyckeln."
+    "declarations.auth.the8020.system.setting.edit": "Ange eller ta bort en global inställning; värdet är inställningsnyckeln.",
+    "profile.direct_changes_require_development": "Direkta paketändringar kräver ett utvecklingssystem. Använd Driftsättningar för att importera en version."
   }
 }

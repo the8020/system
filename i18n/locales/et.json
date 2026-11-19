@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Loetle klastri sõlmed ja nende aadressid; väärtus on tühi.",
     "declarations.auth.the8020.system.node.edit": "Lisa, muuda või eemalda klastri sõlm; väärtus on sõlme ID.",
     "declarations.auth.the8020.system.setting.view": "Loe üldisi seadeid; väärtus on seade võti või loendi jaoks tühi.",
-    "declarations.auth.the8020.system.setting.edit": "Määra või eemalda üldine seade; väärtus on seade võti."
+    "declarations.auth.the8020.system.setting.edit": "Määra või eemalda üldine seade; väärtus on seade võti.",
+    "profile.direct_changes_require_development": "Pakettide otseseks muutmiseks on vaja arendussüsteemi. Versiooni importimiseks kasutage Juurutusi."
   }
 }

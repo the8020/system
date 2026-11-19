@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Llista els nodes del clúster i les seves adreces; el valor és buit.",
     "declarations.auth.the8020.system.node.edit": "Afegeix, canvia o elimina un node del clúster; el valor és l'ID del node.",
     "declarations.auth.the8020.system.setting.view": "Llegeix configuracions globals; el valor és la clau de configuració, o buit per a la llista.",
-    "declarations.auth.the8020.system.setting.edit": "Estableix o elimina una configuració global; el valor és la clau de configuració."
+    "declarations.auth.the8020.system.setting.edit": "Estableix o elimina una configuració global; el valor és la clau de configuració.",
+    "profile.direct_changes_require_development": "Els canvis directes als paquets requereixen un sistema de desenvolupament. Utilitzeu Desplegaments per importar una versió."
   }
 }

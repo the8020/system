@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "列出叢集節點及其位址；值為空。",
     "declarations.auth.the8020.system.node.edit": "新增、更改或移除叢集節點；值為節點 ID。",
     "declarations.auth.the8020.system.setting.view": "讀取全域設定；值為設定鍵，留空檢視清單。",
-    "declarations.auth.the8020.system.setting.edit": "設定或移除全域設定；值為設定鍵。"
+    "declarations.auth.the8020.system.setting.edit": "設定或移除全域設定；值為設定鍵。",
+    "profile.direct_changes_require_development": "直接變更套件需要開發系統。請使用「部署」匯入版本。"
   }
 }

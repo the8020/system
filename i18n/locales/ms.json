@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Senaraikan nod kelompok dan alamatnya; nilainya kosong.",
     "declarations.auth.the8020.system.node.edit": "Tambah, ubah atau buang nod kelompok; nilainya ID nod.",
     "declarations.auth.the8020.system.setting.view": "Baca tetapan global; nilainya kunci tetapan, atau kosong untuk senarai.",
-    "declarations.auth.the8020.system.setting.edit": "Tetapkan atau nyahset tetapan global; nilainya kunci tetapan."
+    "declarations.auth.the8020.system.setting.edit": "Tetapkan atau nyahset tetapan global; nilainya kunci tetapan.",
+    "profile.direct_changes_require_development": "Perubahan pakej secara langsung memerlukan sistem pembangunan. Gunakan Pengerahan untuk mengimport versi."
   }
 }

@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Wyświetla węzły klastra i ich adresy; wartość jest pusta.",
     "declarations.auth.the8020.system.node.edit": "Dodaje, zmienia lub usuwa węzeł klastra; wartością jest ID węzła.",
     "declarations.auth.the8020.system.setting.view": "Odczytuje ustawienia globalne; wartością jest klucz ustawienia lub pusty ciąg dla listy.",
-    "declarations.auth.the8020.system.setting.edit": "Ustawia lub usuwa ustawienie globalne; wartością jest klucz ustawienia."
+    "declarations.auth.the8020.system.setting.edit": "Ustawia lub usuwa ustawienie globalne; wartością jest klucz ustawienia.",
+    "profile.direct_changes_require_development": "Bezpośrednie zmiany pakietów wymagają systemu deweloperskiego. Użyj Wdrożeń, aby zaimportować wersję."
   }
 }

@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "הצגת צומתי האשכול וכתובותיהם; הערך ריק.",
     "declarations.auth.the8020.system.node.edit": "הוספה, שינוי או הסרה של צומת באשכול; הערך הוא מזהה הצומת.",
     "declarations.auth.the8020.system.setting.view": "קריאת הגדרות כלליות; הערך הוא מפתח ההגדרה, או ריק להצגת הרשימה.",
-    "declarations.auth.the8020.system.setting.edit": "קביעה או ביטול של הגדרה כללית; הערך הוא מפתח ההגדרה."
+    "declarations.auth.the8020.system.setting.edit": "קביעה או ביטול של הגדרה כללית; הערך הוא מפתח ההגדרה.",
+    "profile.direct_changes_require_development": "שינויים ישירים בחבילות דורשים מערכת פיתוח. יש להשתמש בפריסות כדי לייבא גרסה."
   }
 }

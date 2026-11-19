@@ -19,6 +19,7 @@
     "declarations.auth.the8020.system.node.view": "Lister les nœuds du cluster et leurs adresses ; la valeur est vide.",
     "declarations.auth.the8020.system.node.edit": "Ajouter, modifier ou supprimer un nœud du cluster ; la valeur est l’ID du nœud.",
     "declarations.auth.the8020.system.setting.view": "Lire les paramètres globaux ; la valeur est la clé du paramètre, ou vide pour la liste.",
-    "declarations.auth.the8020.system.setting.edit": "Définir ou supprimer un paramètre global ; la valeur est la clé du paramètre."
+    "declarations.auth.the8020.system.setting.edit": "Définir ou supprimer un paramètre global ; la valeur est la clé du paramètre.",
+    "profile.direct_changes_require_development": "Les modifications directes des paquets nécessitent un système de développement. Utilisez Déploiements pour importer une version."
   }
 }
